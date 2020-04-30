@@ -1,0 +1,28 @@
+
+/**Button soon (home page)**/
+
+.btn-soon {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 25px;
+    padding-bottom: 70px;
+
+    &--color {
+        background-color: $background-color-hdr_ftr_btnsn;
+    }
+    &__txt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        width: 300px;
+        height: 45px;
+        font-size: 1.7em;
+            
+        &--style {
+            text-decoration: $text-decoration;
+            color: $text-color-hdr_ftr_btnsn;
+        }
+    }
+}

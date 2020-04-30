@@ -1,0 +1,45 @@
+
+/**Menu 2 - menu2.html**/
+
+.bloc_menu2 {
+    background-color: $background-color-menu2;
+}
+
+.compo_menu2 aside {
+    font-size: 20px;
+}
+
+.compo_menu2 {
+    /**main title**/
+    &__main-title {
+        &--style {
+            font-size: 2.5em;
+            background: -webkit-gradient(linear, left top, right bottom, from($title-color-menu2_1), to($title-color-menu2_2));
+            @include degraded-text;
+        }
+    }
+
+    /**Pour se mettre en appétit**/
+    .part1_menu2 {
+        &--color {
+            color: $text-color-part1-menu2;
+        }
+    }
+    
+    /**Plaisir des papilles**/
+    .part2_menu2 {
+        &--color {
+            color: $text-color-part2-menu2;
+        }
+    }
+    
+    /**Gourmandises sucrées**/
+    .part3_menu2 {
+        &--color {
+            color: $text-color-part3-menu2;
+        }
+    }
+}
+
+
+

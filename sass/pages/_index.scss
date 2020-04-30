@@ -1,0 +1,81 @@
+
+/**Home Menus (1,2,3,4) - index.html**/
+
+.home-menus {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
+    /**Menu 1 & 2**/
+    .part1 {
+        @include home-menus-parts;
+        &__menu1 {
+            background-color: #FCDFDB;
+            box-shadow: 2px 2px 11px $box-shadow-menus;
+            margin-left: 200px;
+            @include home-menus;
+            &--style_title {
+                color: $text-color-menu1;
+                margin-top: -1px;
+                font-size: 2.5em;
+            }
+            &--style_subtitle {
+                color: $text-color-menu1;
+                font-size: 2.8em;
+            }
+        }
+        &__menu2 {
+            background-color: #FFF5FE;
+            box-shadow: 2px 2px 11px $box-shadow-menus;
+            margin-right: 200px;
+            margin-left: 50px;
+            @include home-menus;
+
+            &--style_title {
+                background: -webkit-gradient(linear, left top, right bottom, from($title-color-menu2_1), to($title-color-menu2_2));
+                @include degraded-text;
+                font-size: 2em;
+            }
+            &--style_subtitle {
+                color: $subtitle-color-homemenu2;
+                font-size: 2.5em;
+            }
+        }
+    }
+    /**Menu 3 & 4**/
+    .part2 {
+        @include home-menus-parts;
+        
+        &__menu3 {
+            background-color: #F9F9F9;
+            box-shadow: 2px 2px 11px $box-shadow-menus;
+            @include home-menus;
+
+            &--style_title {
+                background: -webkit-gradient(linear, left top, right bottom, from($title-color-menu3_1), to($title-color-menu3_2));
+                @include degraded-text;
+                font-size: 2.5em;
+            }
+            &--style_subtitle {
+                color: $subtitle-color-homemenu3;
+                font-size: 2.7em;
+            }
+        }
+        &__menu4 {
+            background-color: #FDFFFD;
+            box-shadow: 2px 2px 11px rgb(184, 178, 178);
+            margin-left: 50px;
+            @include home-menus;
+
+            &--style_title {
+                background: -webkit-gradient(linear, left top, right bottom, from($title-color-menu4_1), to($title-color-menu4_2));
+                @include degraded-text;
+                font-size: 2.5em;
+            }
+            &--style_subtitle {
+                color: $subtitle-color-homemenu4;
+                font-size: 2.7em;
+            }
+        }
+    }
+}

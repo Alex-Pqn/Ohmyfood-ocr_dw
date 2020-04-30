@@ -1,0 +1,24 @@
+
+/**Footer (appears on all pages)**/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 57px;
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+
+    &--color {
+        background-color: $background-color-hdr_ftr_btnsn
+    }
+    &__mentions {
+        @include footer;
+        margin-left: 35px;
+    } 
+    &__contact {
+        @include footer;
+        margin-right: 35px;
+    } 
+}

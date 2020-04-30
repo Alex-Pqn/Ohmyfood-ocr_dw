@@ -1,0 +1,16 @@
+{
+  "name": "p3ocr",
+  "version": "1.0.0",
+  "description": "Projet 3 - OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix": "postcss --watch ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "author": "Alex Pqn",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "sass": "^1.26.5"
+  }
+}

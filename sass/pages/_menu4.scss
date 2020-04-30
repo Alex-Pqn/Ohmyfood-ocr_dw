@@ -1,0 +1,23 @@
+
+/**Menu 4 - menu4.html**/
+
+.bloc_menu4 {
+    background-color: $background-color-menu4;
+}
+
+.compo_menu4 {
+    color: $text-color-menu4;
+
+    /**main title & prices**/
+    &__main-title {
+        &--style {
+            font-size: 4em;
+            background: -webkit-gradient(linear, left top, right bottom, from($title-color-menu4_1), to($title-color-menu4_2));
+            @include degraded-text;
+        }
+    }
+}
+
+
+
+

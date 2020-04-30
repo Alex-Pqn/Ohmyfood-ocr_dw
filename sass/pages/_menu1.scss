@@ -1,0 +1,102 @@
+
+/**Menu 1 - menu1.html**/
+
+.bloc_menu1 {
+    background-color: $background-color-menu1;
+    height: 1150px;
+    width: 900px;
+}
+
+.bloc_menu1 p {
+    line-height: 20px;
+    font-size: 28px;
+}
+
+.compo_menu1 {
+    color: $text-color-menu1;
+    width: 700px;
+    
+    /**icon, main title & prices**/
+    &__main-img {
+        width: 100%;
+        text-align: center;
+        margin-top: 45px;
+    }
+    &__main-title {
+        margin-top: -0.1px;
+        text-align: center;
+        &--style {
+            font-size: 3.5em;
+        }
+    }
+    &__price {
+        font-weight: bold;
+        float: right;
+    }
+
+    /**Prélude**/
+    .part1_menu1 {
+        margin-top: 65px;
+        &__l-bar {
+            float: left;
+            width: 30%;
+        }
+        &__txt {
+            @include menu1-parts
+        }
+        &__r-bar {
+            float: right;
+            width: 30%;
+        }
+    }
+
+    /**Point d'orgue**/
+    .part2_menu1 {
+        margin-top: 85px;
+        &__l-bar {
+            float: left;
+            width: 30%;
+        }
+        &__txt {
+            @include menu1-parts
+        }
+        &__r-bar {
+            float: right;
+            width: 30%;
+        }
+    } 
+
+    /**Mouvement final**/
+    .part3_menu1 {
+        margin-top: 85px;
+        &__l-bar {
+            float: left;
+            width: 30%;
+        }
+        &__txt {
+            @include menu1-parts
+        }
+        &__r-bar {
+            float: right;
+            width: 30%;
+        }
+    } 
+
+    /**icon & title end**/
+    .menu-end_menu1 {
+        text-align: center;
+        margin-top: 65px;
+        font-size: 40px;
+        &__icon {
+            margin-right: 15px;
+        }
+    }
+}
+
+.part1_menu1 aside, .part2_menu1 aside, .part3_menu1 aside {
+    margin-bottom: 35px;
+}
+
+.fa-itunes-note {
+    color: $icon-color-menu1;
+}

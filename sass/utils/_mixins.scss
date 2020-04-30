@@ -1,0 +1,80 @@
+
+/**Home menus + Menus**/
+
+@mixin degraded-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/**Home menus**/
+
+@mixin home-menus-parts {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@mixin home-menus {
+    height: 565px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/**Footer**/
+
+@mixin footer {
+    &--style {
+        padding-top: 11px;
+        color: $text-color-hdr_ftr_btnsn;
+        text-decoration: $text-decoration;
+        font-size: 1.6em;
+    }
+}
+
+/**Menus (1,2,3,4)**/
+
+@mixin bloc_menu {
+    box-shadow: 0px 0px 7px rgb(201, 193, 193);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 50%;
+    min-width: 800px;
+    margin-bottom: 100px;
+}
+
+/**Menu 1**/
+
+@mixin menu1-parts {
+    font-size: 40px;
+    display: block;
+    margin: auto;
+    line-height: 1px;
+    width: 40%;
+    text-align: center;
+}
+
+/**Menu 2,3,4**/
+
+@mixin menu2_3_4-parts-txt {
+    display: block;
+    margin: auto;
+    line-height: 1px;
+    width: 46%;
+    text-align: center;
+}
+
+@mixin menu2_3_4-parts-bar-l {
+    float: left;
+    width: 27%;
+    margin-top: -5px;
+}
+
+@mixin menu2_3_4-parts-bar-r {
+    float: right;
+    width: 27%;
+    margin-top: -5px;
+}

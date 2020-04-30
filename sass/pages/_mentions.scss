@@ -1,0 +1,27 @@
+
+/**Mentions - mentions.html"**/
+
+.mentions p, .mentions h3, .mentions h2, .mentions ul {
+    margin-left: 18px;
+    margin-right: 50px;
+}
+
+.mentions p, .mentions ul {
+    font-size: 17px;
+    color: $text-color-mentions
+}
+
+.mentions-parts {
+    margin-bottom: 65px;
+}
+
+.mentions_end {
+    text-align: center;
+    margin-bottom: 65px;
+    color: $text-color-mention_send
+}
+
+.mentions h3 {
+    font-size: 20px;
+    color: $title-color-mentions
+}

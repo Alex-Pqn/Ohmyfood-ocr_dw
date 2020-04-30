@@ -1,0 +1,95 @@
+
+/**Menus 1,2,3,4 - menu1.html, menu2.html, menu3.html, menu4.html**/
+
+.bloc_menu1, .bloc_menu-2-3-4 {
+    @include bloc_menu
+}
+
+.title-g-menus {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.1em;
+    color: $titles-g-menus;
+}
+
+/**Menus 2,3,4 - menu2.html, menu3.html, menu4.html**/
+
+.bloc_menu-2-3-4 {
+    height: 1100px;
+    width: 880px;
+}
+
+.compo_menu-2-3-4 {
+    width: 700px;
+
+    &__main-title {
+        margin-top: 110px;
+        margin-bottom: 115px;
+        text-align: center;
+    }
+    &__price {
+        float: right;
+    }
+
+    .part1_menu-2-3-4 {
+        margin-top: 65px;
+
+        &__l-bar {
+            @include menu2_3_4-parts-bar-l
+        }
+        &__txt {
+            @include menu2_3_4-parts-txt
+        }
+        &__r-bar {
+            @include menu2_3_4-parts-bar-r
+        }
+    }
+
+    .part2_menu-2-3-4 {
+        margin-top: 85px;
+
+        &__l-bar {
+            @include menu2_3_4-parts-bar-l
+        }
+        &__txt {
+            @include menu2_3_4-parts-txt
+        }
+        &__r-bar {
+            @include menu2_3_4-parts-bar-r
+        }
+    } 
+
+    .part3_menu-2-3-4 {
+        margin-top: 85px;
+
+        &__l-bar {
+            @include menu2_3_4-parts-bar-l
+        }
+        &__txt {
+            @include menu2_3_4-parts-txt
+        }
+        &__r-bar {
+            @include menu2_3_4-parts-bar-r
+        }
+    } 
+}
+
+.part1_menu-2-3-4 aside, .part2_menu-2-3-4 aside, .part3_menu-2-3-4 aside {
+    display: block;
+    margin-bottom: 35px;
+}
+
+/**Menus 3,4 - menu3.html, menu4.html**/
+
+.compo_menu3 aside, .compo_menu4 aside {
+    font-size: 20px;
+}
+
+.compo_menu3 p, .compo_menu4 p {
+    font-size: 1.5em;
+}
+
+.compo_menu3__price, .compo_menu4__price {
+    font-size: 30px;
+}
