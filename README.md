@@ -5,13 +5,11 @@
 Name of the project : project3ocr (Project 3, OpenClassrooms)
 Author : Alex Pqn
 
-Project status : active (in devlopment)
-Projet start date : 16 April 2020
-Projet end date : undefined
+*Project status : active (in devlopment)
+*Projet start date : 16 April 2020
+*Projet end date : undefined
 
 Quick Description : Project designed and intended to reproduce the models of a site for preparing and assembling food menus.
-
-
 
 - Installation of the project
 
