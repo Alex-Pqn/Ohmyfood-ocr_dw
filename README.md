@@ -39,5 +39,5 @@ If you choose this method, you can remove the "prefix" script and ignore the res
 to install "concurrently" (program script to launch scripts "sass" and "prefix" at the same time, possibility to take another).
 > npm install concurrently
 
-to run the two scripts with "concurrently" (another command if you have another script for make this)
+to run the two scripts with "concurrently" (another command if you have another program script for make this)
 > concurrently "npm run sass" "npm run prefix"
