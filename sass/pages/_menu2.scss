@@ -21,22 +21,31 @@
 
     /**Pour se mettre en appétit**/
     .part1_menu2 {
-        &--color {
+        &--color_txt {
             color: $text-color-part1-menu2;
+        }
+        &--style_bars {
+            background: $text-color-part1-menu2;
         }
     }
     
     /**Plaisir des papilles**/
     .part2_menu2 {
-        &--color {
+        &--color_txt {
             color: $text-color-part2-menu2;
+        }
+        &--style_bars {
+            background: $text-color-part2-menu2;
         }
     }
     
     /**Gourmandises sucrées**/
     .part3_menu2 {
-        &--color {
+        &--color_txt {
             color: $text-color-part3-menu2;
+        }
+        &--style_bars {
+            background: $text-color-part3-menu2;
         }
     }
 }

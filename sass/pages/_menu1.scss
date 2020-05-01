@@ -39,14 +39,14 @@
         margin-top: 65px;
         &__l-bar {
             float: left;
-            width: 30%;
+            @include parts_menu1_bars
         }
         &__txt {
             @include menu1-parts
         }
         &__r-bar {
             float: right;
-            width: 30%;
+            @include parts_menu1_bars
         }
     }
 
@@ -55,14 +55,14 @@
         margin-top: 85px;
         &__l-bar {
             float: left;
-            width: 30%;
+            @include parts_menu1_bars
         }
         &__txt {
             @include menu1-parts
         }
         &__r-bar {
             float: right;
-            width: 30%;
+            @include parts_menu1_bars
         }
     } 
 
@@ -71,14 +71,14 @@
         margin-top: 85px;
         &__l-bar {
             float: left;
-            width: 30%;
+            @include parts_menu1_bars
         }
         &__txt {
             @include menu1-parts
         }
         &__r-bar {
             float: right;
-            width: 30%;
+            @include parts_menu1_bars
         }
     } 
 

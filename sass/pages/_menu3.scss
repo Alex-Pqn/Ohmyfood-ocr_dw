@@ -16,4 +16,25 @@
             @include degraded-text;
         }
     }
+
+    /**Pour bien commencer**/
+    .part1_menu3 {
+        &--style_bars {
+            background: $bar-color-menu3_part1;
+        }
+    }
+
+    /**Pour bien continuer**/
+    .part2_menu3 {
+        &--style_bars {
+            background: $bar-color-menu3_part2;
+        }
+    }
+
+    /**Pour bien terminer**/
+    .part3_menu3 {
+        &--style_bars {
+            background: $bar-color-menu3_part3;
+        }
+    }
 }

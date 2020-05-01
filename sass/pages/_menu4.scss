@@ -16,8 +16,22 @@
             @include degraded-text;
         }
     }
+    .parts-bars_menu4 {
+        &--style_bars-l {
+            background: -webkit-gradient(linear, left top, right bottom, 
+            color-stop(0%,$bar-color-menu4_deg1), 
+            color-stop(24%,$bar-color-menu4_deg2), 
+            color-stop(41%,$bar-color-menu4_deg3), 
+            color-stop(100%,$bar-color-menu4_deg4));
+        }
+        &--style_bars-r {
+            background: -webkit-gradient(linear, left top, right bottom, 
+            color-stop(0%,$bar-color-menu4_deg4), 
+            color-stop(59%,$bar-color-menu4_deg3), 
+            color-stop(76%,$bar-color-menu4_deg2), 
+            color-stop(100%,$bar-color-menu4_deg1));
+        }
+    }
 }
-
-
 
 
