@@ -1,6 +1,7 @@
 # project3ocr
 
 - Presentation
+
 Name of the project : project3ocr (Project 3, OpenClassrooms)
 Author : Alex Pqn
 
@@ -12,6 +13,7 @@ Quick Description : Project designed and intended to reproduce the models of a s
 
 
 - Installation of the project
+
 to install "sass".
 > npm install sass
 
