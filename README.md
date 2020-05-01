@@ -19,7 +19,7 @@ Quick Description : Project designed and intended to reproduce the models of a s
 * Installation of the project
 
 to install "sass".
-> npm install sass
+> npm install sass <
 
 - -
 The site must be fully compatible with the latest desktop versions of Chrome, Firefox and Safari.
@@ -33,7 +33,7 @@ If you choose the manual method you can remove the "prefix" script and ignore th
 - -
 
 to install "concurrently" (program script to launch scripts "sass" and "prefix" at the same time, possibility to take another).
-> npm install concurrently
+> npm install concurrently <
 
 to run the two scripts with "concurrently" (another command if you have another script for make this)
-> concurrently "npm run sass" "npm run prefix"
+> concurrently "npm run sass" "npm run prefix" <
