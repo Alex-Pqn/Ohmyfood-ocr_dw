@@ -27,7 +27,6 @@ The site must be fully compatible with the latest desktop versions of Chrome, Fi
 Two possibilities to interact with the project prefixes !
 
 1. Install an automatic prefixer extension (the default script "prefix" in the package.json is suitable for the extension "autoprefixer" in Visual Studio Code).
-
 You can customize this script if you use another extension in your I.D.E.
 Once the script "prefix" customized according to your extension, you can skip step 2 and continue the installation.
 
