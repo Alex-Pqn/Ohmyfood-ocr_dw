@@ -17,8 +17,9 @@ Quick Description : Project designed and intended to reproduce the models of a s
 *-*
 
 * Installation of the project
-
+The installation uses npm Node.js. Install it on your I.D.E to enjoy the rest of the project installation.
 to install "sass".
+
 > npm install sass
 
 - - -
