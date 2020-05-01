@@ -12,6 +12,7 @@ Projet end date : undefined
 Quick Description : Project designed and intended to reproduce the models of a site for preparing and assembling food menus.
 
 
+
 - Installation of the project
 
 to install "sass".
