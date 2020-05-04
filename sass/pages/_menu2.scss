@@ -1,5 +1,5 @@
 
-/**Menu 2 - menu2.html**/
+/**Menu 2**/
 
 .bloc_menu2 {
     background-color: $background-color-menu2;
@@ -27,6 +27,9 @@
         &--style_bars {
             background: $text-color-part1-menu2;
         }
+        &__txt {
+            width: 33%;
+        }
     }
     
     /**Plaisir des papilles**/
@@ -37,6 +40,9 @@
         &--style_bars {
             background: $text-color-part2-menu2;
         }
+        &__txt {
+            width: 25%;
+        }
     }
     
     /**Gourmandises sucrées**/
@@ -46,6 +52,9 @@
         }
         &--style_bars {
             background: $text-color-part3-menu2;
+        }
+        &__txt {
+            width: 30%;
         }
     }
 }

@@ -1,5 +1,5 @@
 
-/**Menu 4 - menu4.html**/
+/**Menu 4**/
 
 .bloc_menu4 {
     background-color: $background-color-menu4;
@@ -16,6 +16,29 @@
             @include degraded-text;
         }
     }
+
+    /**Esquisse**/
+    .part1_menu4 {
+        &__txt {
+            width: 13%;
+        }
+    }
+
+    /**Oeuvre de maître**/
+    .part2_menu4 {
+        &__txt {
+            width: 25%;
+        }
+    }
+
+    /**Au sommet de l'art**/
+    .part3_menu4 {
+        &__txt {
+            width: 28%;
+        }
+    }
+
+    /**all bars on menu4**/
     .parts-bars_menu4 {
         &--style_bars-l {
             background: -webkit-gradient(linear, left top, right bottom, 

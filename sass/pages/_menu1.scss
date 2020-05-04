@@ -1,5 +1,5 @@
 
-/**Menu 1 - menu1.html**/
+/**Menu 1**/
 
 .bloc_menu1 {
     background-color: $background-color-menu1;
@@ -42,7 +42,8 @@
             @include parts_menu1_bars
         }
         &__txt {
-            @include menu1-parts
+            width: 15%;
+            @include parts_menu1_txt
         }
         &__r-bar {
             float: right;
@@ -58,7 +59,8 @@
             @include parts_menu1_bars
         }
         &__txt {
-            @include menu1-parts
+            width: 26%;
+            @include parts_menu1_txt
         }
         &__r-bar {
             float: right;
@@ -74,7 +76,8 @@
             @include parts_menu1_bars
         }
         &__txt {
-            @include menu1-parts
+            width: 34%;
+            @include parts_menu1_txt
         }
         &__r-bar {
             float: right;

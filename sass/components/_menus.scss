@@ -1,5 +1,5 @@
 
-/**Menus 1,2,3,4 - menu1.html, menu2.html, menu3.html, menu4.html**/
+/**Menus 1,2,3,4**/
 
 .bloc_menu1, .bloc_menu-2-3-4 {
     @include bloc_menu
@@ -13,7 +13,7 @@
     color: $titles-g-menus;
 }
 
-/**Menus 2,3,4 - menu2.html, menu3.html, menu4.html**/
+/**Menus 2,3,4**/
 
 .bloc_menu-2-3-4 {
     height: 1100px;
@@ -86,7 +86,7 @@
     margin-bottom: 35px;
 }
 
-/**Menus 3,4 - menu3.html, menu4.html**/
+/**Menus 3,4**/
 
 .compo_menu3 aside, .compo_menu4 aside {
     font-size: 20px;

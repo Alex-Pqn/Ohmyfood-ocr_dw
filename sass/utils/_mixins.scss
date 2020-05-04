@@ -39,7 +39,6 @@
     display: block;
     margin: auto;
     line-height: 1px;
-    width: 40%;
     text-align: center;
 }
 @mixin menu2_3_4-parts-bars {
@@ -49,12 +48,11 @@
 
 /**Menu 1**/
 
-@mixin menu1-parts {
+@mixin parts_menu1_txt {
     font-size: 40px;
     display: block;
     margin: auto;
     line-height: 1px;
-    width: 40%;
     text-align: center;
 }
 @mixin parts_menu1_bars {
