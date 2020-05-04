@@ -5,7 +5,6 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 57px;
     position: fixed;
     bottom: 0;
     right: 0px;
@@ -13,12 +12,52 @@
     &--color {
         background-color: $background-color-hdr_ftr_btnsn
     }
-    &__mentions {
-        @include footer;
-        margin-left: 35px;
-    } 
-    &__contact {
-        @include footer;
-        margin-right: 35px;
-    } 
+}
+
+@media (min-width: 320px) {
+    .footer {
+        height: 45px;
+        &__mentions {
+            font-size: 1.1em;
+            margin-left: 7px;
+            @include footer;
+        } 
+        &__contact {
+            font-size: 1.1em;
+            margin-right: 7px;
+            @include footer;
+        } 
+    }   
+}
+
+@media (min-width: 600px) {
+    .footer {
+        height: 52px;
+        &__mentions {
+            font-size: 1.5em;
+            margin-left: 20px;
+            @include footer;
+        } 
+        &__contact {
+            font-size: 1.5em;
+            margin-right: 20px;
+            @include footer;
+        } 
+    }   
+}
+
+@media (min-width: 992px) {
+    .footer {
+        height: 57px;
+        &__mentions {
+            font-size: 1.6em;
+            margin-left: 35px;
+            @include footer;
+        } 
+        &__contact {
+            font-size: 1.6em;
+            margin-right: 35px;
+            @include footer;
+        } 
+    }   
 }

@@ -11,30 +11,8 @@
     /**main title & prices**/
     &__main-title {
         &--style {
-            font-size: 4em;
             background: -webkit-gradient(linear, left top, right bottom, from($title-color-menu4_1), to($title-color-menu4_2));
             @include degraded-text;
-        }
-    }
-
-    /**Esquisse**/
-    .part1_menu4 {
-        &__txt {
-            width: 13%;
-        }
-    }
-
-    /**Oeuvre de maître**/
-    .part2_menu4 {
-        &__txt {
-            width: 25%;
-        }
-    }
-
-    /**Au sommet de l'art**/
-    .part3_menu4 {
-        &__txt {
-            width: 28%;
         }
     }
 
@@ -53,6 +31,210 @@
             color-stop(59%,$bar-color-menu4_deg3), 
             color-stop(76%,$bar-color-menu4_deg2), 
             color-stop(100%,$bar-color-menu4_deg1));
+        }
+    }
+}
+
+
+/**RESPONSIVE 320px > 599px**/
+
+@media (min-width: 320px) {
+
+    .bloc_menu4 {
+        & p {
+            font-size: 22px;
+        }
+        & span {
+            font-size: 26px;
+        }
+    }
+
+    .compo_menu4 {
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 2em;
+            }
+        }
+    
+        /**Esquisse**/
+        .part1_menu4 {
+            &__l-bar {
+                width: 20%;
+            }
+            &__txt {
+                width: 24%;
+                font-size: 25px;
+            }
+            &__r-bar {
+                width: 20%;
+            }
+        }
+        
+        /**Oeuvre de maître**/
+        .part2_menu4 {
+            &__l-bar {
+                width: 20%;
+            }
+            &__txt {
+                width: 47%;
+                font-size: 25px;
+            }
+            &__r-bar {
+                width: 20%;
+            }
+        }
+        
+        /**Au sommet de l'art**/
+        .part3_menu4 {
+            &__l-bar {
+                width: 20%;
+            }
+            &__txt {
+                width: 53%;
+                font-size: 25px;
+            }
+            &__r-bar {
+                width: 20%;
+            }
+        }
+    }
+}
+
+
+/**RESPONSIVE 600px > 991px**/
+
+@media (min-width: 600px) {
+
+    .bloc_menu4 {
+        width: 550px;
+        & p {
+            font-size: 23px;
+        }
+        & span {
+            font-size: 26px;
+        }
+    }
+
+    .compo_menu4 {
+        width: 530px;
+
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 3em;
+            }
+        }
+    
+        /**Esquisse**/
+        .part1_menu4 {
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 14%;
+                font-size: 26px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        }
+        
+        /**Oeuvre de maître**/
+        .part2_menu4 {
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 28%;
+                font-size: 26px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        }
+        
+        /**Au sommet de l'art**/
+        .part3_menu4 {
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 32%;
+                font-size: 26px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        }
+    }
+}
+
+
+/**RESPONSIVE 992px > +**/
+
+@media (min-width: 992px) {
+
+    .bloc_menu4 {
+        width: 900px;
+        & p {
+            font-size: 28px;
+        }
+        & span {
+            font-size: 32px;
+        }
+    }
+
+    .compo_menu4 {
+        width: 700px;
+
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 4em;
+            }
+        }
+    
+        /**Esquisse**/
+        .part1_menu4 {
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 14%;
+                font-size: 35px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        }
+        
+        /**Oeuvre de maître**/
+        .part2_menu4 {
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 28%;
+                font-size: 35px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        }
+        
+        /**Au sommet de l'art**/
+        .part3_menu4 {
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 32%;
+                font-size: 35px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
         }
     }
 }

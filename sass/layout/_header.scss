@@ -2,7 +2,6 @@
 /**Header (appears on all pages)**/
 
 .header {
-    height: 100px;
     margin-bottom: 0.5em;
 
     &--color {
@@ -14,6 +13,41 @@
         font-size: 2.6em;
         &--style {
             color: $text-color-hdr_ftr_btnsn;
+        }
+    }
+}
+
+
+
+@media (min-width: 320px) {
+    .header {
+        height: 75px;
+
+        &__txt {
+            margin-top: 12px;
+            font-size: 2em;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .header {
+        height: 90px;
+    
+        &__txt {
+            margin-top: 14px;
+            font-size: 2.4em;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .header {
+        height: 100px;
+
+        &__txt {
+            margin-top: 18px;
+            font-size: 2.6em;
         }
     }
 }

@@ -3,18 +3,14 @@
 
 .bloc_menu1 {
     background-color: $background-color-menu1;
-    height: 1150px;
-    width: 900px;
-}
-
-.bloc_menu1 p {
-    line-height: 20px;
-    font-size: 28px;
+    height: auto;
+    & p {
+        line-height: 20px;
+    }
 }
 
 .compo_menu1 {
     color: $text-color-menu1;
-    width: 700px;
     
     /**icon, main title & prices**/
     &__main-img {
@@ -25,9 +21,6 @@
     &__main-title {
         margin-top: -0.1px;
         text-align: center;
-        &--style {
-            font-size: 3.5em;
-        }
     }
     &__price {
         font-weight: bold;
@@ -36,13 +29,14 @@
 
     /**Prélude**/
     .part1_menu1 {
-        margin-top: 65px;
+        & aside {
+            margin-bottom: 35px;
+        }
         &__l-bar {
             float: left;
             @include parts_menu1_bars
         }
         &__txt {
-            width: 15%;
             @include parts_menu1_txt
         }
         &__r-bar {
@@ -53,13 +47,14 @@
 
     /**Point d'orgue**/
     .part2_menu1 {
-        margin-top: 85px;
+        & aside {
+            margin-bottom: 35px;
+        }
         &__l-bar {
             float: left;
             @include parts_menu1_bars
         }
         &__txt {
-            width: 26%;
             @include parts_menu1_txt
         }
         &__r-bar {
@@ -70,13 +65,14 @@
 
     /**Mouvement final**/
     .part3_menu1 {
-        margin-top: 85px;
+        & aside {
+            margin-bottom: 35px;
+        }
         &__l-bar {
             float: left;
             @include parts_menu1_bars
         }
         &__txt {
-            width: 34%;
             @include parts_menu1_txt
         }
         &__r-bar {
@@ -88,18 +84,232 @@
     /**icon & title end**/
     .menu-end_menu1 {
         text-align: center;
-        margin-top: 65px;
-        font-size: 40px;
         &__icon {
             margin-right: 15px;
         }
     }
 }
 
-.part1_menu1 aside, .part2_menu1 aside, .part3_menu1 aside {
-    margin-bottom: 35px;
-}
-
 .fa-itunes-note {
     color: $icon-color-menu1;
+}
+
+
+/**RESPONSIVE 320px > 599px**/
+
+@media (min-width: 320px) {
+
+    .bloc_menu1 p {
+        font-size: 19px;
+    }
+
+    .compo_menu1 {
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 2.2em;
+            }
+        }
+
+        /**Prélude**/
+        .part1_menu1 {
+            margin-top: 50px;
+            &__l-bar {
+                width: 25%;
+            }
+            &__txt {
+                width: 15%;
+                font-size: 20px;
+            }
+            &__r-bar {
+                width: 25%;
+            }
+        }
+
+        /**Point d'orgue**/
+        .part2_menu1 {
+            margin-top: 55px;
+            &__l-bar {
+                width: 25%;
+            }
+            &__txt {
+                width: 29%;
+                font-size: 20px;
+            }
+            &__r-bar {
+                width: 25%;
+            }
+        } 
+
+        /**Mouvement final**/
+        .part3_menu1 {
+            margin-top: 55px;
+            &__l-bar {
+                width: 25%;
+            }
+            &__txt {
+                width: 38%;
+                font-size: 20px;
+            }
+            &__r-bar {
+                width: 25%;
+            }
+        } 
+
+        /**icon & title end**/
+        .menu-end_menu1 {
+            margin-top: 45px;
+            font-size: 30px;
+        }
+    }
+}
+
+
+/**RESPONSIVE 600px > 991px**/
+
+@media (min-width: 600px) {
+
+    .bloc_menu1 {
+        width: 550px;
+        & p {
+            font-size: 24px;
+        }
+    }
+
+    .compo_menu1 {
+        width: 530px;
+
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 3em;
+            }
+        }
+
+        /**Prélude**/
+        .part1_menu1 {
+            margin-top: 65px;
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 15%;
+                font-size: 31px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        }
+
+        /**Point d'orgue**/
+        .part2_menu1 {
+            margin-top: 85px;
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 26%;
+                font-size: 31px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        }
+
+        /**Mouvement final**/
+        .part3_menu1 {
+            margin-top: 85px;
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 34%;
+                font-size: 31px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        } 
+
+        /**icon & title end**/
+        .menu-end_menu1 {
+            margin-top: 55px;
+            font-size: 35px;
+        }
+    }
+}
+
+
+/**RESPONSIVE 992px > +**/
+
+    @media (min-width: 992px) {
+
+    .bloc_menu1 {
+        width: 900px;
+        & p {
+            font-size: 28px;
+        }
+    }
+
+    .compo_menu1 {
+        width: 700px;
+
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 3.5em;
+            }
+        }
+
+        /**Prélude**/
+        .part1_menu1 {
+            margin-top: 65px;
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 15%;
+                font-size: 40px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        }
+
+        /**Point d'orgue**/
+        .part2_menu1 {
+            margin-top: 85px;
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 26%;
+                font-size: 40px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        } 
+
+        /**Mouvement final**/
+        .part3_menu1 {
+            margin-top: 85px;
+            &__l-bar {
+                width: 30%;
+            }
+            &__txt {
+                width: 34%;
+                font-size: 40px;
+            }
+            &__r-bar {
+                width: 30%;
+            }
+        } 
+
+        /**icon & title end**/
+        .menu-end_menu1 {
+            margin-top: 65px;
+            font-size: 40px;
+        }
+    }
 }

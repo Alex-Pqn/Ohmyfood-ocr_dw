@@ -22,18 +22,12 @@
         &--style_bars {
             background: $bar-color-menu3_part1;
         }
-        &__txt {
-            width: 31%;
-        }
     }
 
     /**Pour bien continuer**/
     .part2_menu3 {
         &--style_bars {
             background: $bar-color-menu3_part2;
-        }
-        &__txt {
-            width: 29%;
         }
     }
 
@@ -42,8 +36,210 @@
         &--style_bars {
             background: $bar-color-menu3_part3;
         }
-        &__txt {
-            width: 28%;
+    }
+}
+
+
+/**RESPONSIVE 320px > 599px**/
+
+@media (min-width: 320px) {
+
+    .bloc_menu3 {
+        & p {
+            font-size: 22px;
+        }
+        & span {
+            font-size: 26px;
+        }
+    }
+
+    .compo_menu3 {
+
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 2em;
+            }
+        }
+    
+        /**Pour bien commencer**/
+        .part1_menu3 {
+            &__l-bar {
+                width: 15%;
+            }
+            &__txt {
+                width: 60%;
+                font-size: 25px;
+            }
+            &__r-bar {
+                width: 15%;
+            }
+        }
+        
+        /**Pour bien continuer**/
+        .part2_menu3 {
+            &__l-bar {
+                width: 15%;
+            }
+            &__txt {
+                width: 55%;
+                font-size: 25px;
+            }
+            &__r-bar {
+                width: 15%;
+            }
+        }
+        
+        /**Pour bien terminer**/
+        .part3_menu3 {
+            &__l-bar {
+                width: 15%;
+            }
+            &__txt {
+                width: 54%;
+                font-size: 25px;
+            }
+            &__r-bar {
+                width: 15%;
+            }
+        }
+    }
+}
+
+
+/**RESPONSIVE 600px > 991px**/
+
+@media (min-width: 600px) {
+
+    .bloc_menu3 {
+        width: 550px;
+        & p {
+            font-size: 23px;
+        }
+        & span {
+            font-size: 26px;
+        }
+    }
+
+    .compo_menu3 {
+        width: 530px;
+
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 3em;
+            }
+        }
+    
+        /**Pour bien commencer**/
+        .part1_menu3 {
+            &__l-bar {
+                width: 25%;
+            }
+            &__txt {
+                width: 37%;
+                font-size: 27px;
+            }
+            &__r-bar {
+                width: 25%;
+            }
+        }
+        
+        /**Pour bien continuer**/
+        .part2_menu3 {
+            &__l-bar {
+                width: 25%;
+            }
+            &__txt {
+                width: 35%;
+                font-size: 27px;
+            }
+            &__r-bar {
+                width: 25%;
+            }
+        }
+        
+        /**Pour bien terminer**/
+        .part3_menu3 {
+            &__l-bar {
+                width: 25%;
+            }
+            &__txt {
+                width: 34%;
+                font-size: 27px;
+            }
+            &__r-bar {
+                width: 25%;
+            }
+        }
+    }
+}
+
+
+/**RESPONSIVE 992px > +**/
+
+@media (min-width: 992px) {
+
+    .bloc_menu3 {
+        width: 900px;
+        & p {
+            font-size: 28px;
+        }
+        & span {
+            font-size: 32px;
+        }
+    }
+
+    .compo_menu3 {
+        width: 700px;
+
+        /**main title**/
+        &__main-title {
+            &--style {
+                font-size: 4em;
+            }
+        }
+    
+        /**Pour bien commencer**/
+        .part1_menu3 {
+            &__l-bar {
+                width: 28%;
+            }
+            &__txt {
+                width: 36%;
+                font-size: 35px;
+            }
+            &__r-bar {
+                width: 28%;
+            }
+        }
+        
+        /**Pour bien continuer**/
+        .part2_menu3 {
+            &__l-bar {
+                width: 28%;
+            }
+            &__txt {
+                width: 33%;
+                font-size: 35px;
+            }
+            &__r-bar {
+                width: 28%;
+            }
+        }
+        
+        /**Pour bien terminer**/
+        .part3_menu3 {
+            &__l-bar {
+                width: 28%;
+            }
+            &__txt {
+                width: 32%;
+                font-size: 35px;
+            }
+            &__r-bar {
+                width: 28%;
+            }
         }
     }
 }

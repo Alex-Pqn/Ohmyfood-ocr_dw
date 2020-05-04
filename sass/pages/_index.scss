@@ -1,15 +1,19 @@
 
 /**Home Menus (1,2,3,4) - index.html**/
+
 .container-home-menus {
     display: flex;
     justify-content: center;
+
     .home-menus {
         display: flex;
         justify-content: center;
         flex-flow: row wrap;
+
         /**Menu 1**/
         &__menu1 {
             background-color: #FCDFDB;
+            margin-top: 40px;
             @include home-menus;
 
             &--style_title {
@@ -19,9 +23,11 @@
                 color: $text-color-menu1;
             }
         }
+
         /**Menu 2**/
         &__menu2 {
             background-color: #FFF5FE;
+            margin-top: 40px;
             @include home-menus;
 
             &--style_title {
@@ -32,6 +38,7 @@
                 color: $subtitle-color-homemenu2;
             }
         }
+
         /**Menu 3**/
         &__menu3 {
             background-color: #F9F9F9;
@@ -45,6 +52,7 @@
                 color: $subtitle-color-homemenu3;
             }
         }
+
         /**Menu 4**/
         &__menu4 {
             background-color: #FDFFFD;
@@ -60,105 +68,192 @@
         }
     }
 }
-@media (min-width: 359px) {
-    .container-home-menus {
-        .home-menus {
-            width: 400px;
 
-            /**Menu 1**/
-            &__menu1 {
-                margin-top: 40px;
-                &--style_title {
-                    margin-top: -1px;
-                    font-size: 3.8em;
-                }
-                &--style_subtitle {
-                    font-size: 3.5em;
-                }
+
+/**RESPONSIVE 320px > 599px**/
+
+@media (min-width: 320px) {
+
+    .home-menus {
+        width: 400px;
+
+        /**Menu 1**/
+        &__menu1 {
+            flex-basis: 250px;
+            height: 350px;
+            &--style_title {
+                margin-top: -1px;
+                font-size: 2.3em;
             }
-            /**Menu 2**/
-            &__menu2 {
-                margin-top: 40px;
-                &--style_title {
-                    font-size: 3.3em;
-                }
-                &--style_subtitle {
-                    font-size: 3.3em;
-                }
+            &--style_subtitle {
+                font-size: 2.3em;
             }
-            /**Menu 3**/
-            &__menu3 {
-                margin-top: 40px;
-                &--style_title {
-                    font-size: 3.8em;
-                }
-                &--style_subtitle {
-                    font-size: 3.6em;
-                }
+        }
+
+        /**Menu 2**/
+        &__menu2 {
+            flex-basis: 250px;
+            height: 350px;
+            &--style_title {
+                font-size: 1.8em;
             }
-            /**Menu 4**/
-            &__menu4 {
-                margin-top: 40px;
-                &--style_title {
-                    font-size: 3.6em;
-                }
-                &--style_subtitle {
-                    font-size: 3.6em;
-                }
+            &--style_subtitle {
+                font-size: 2.2em;
+            }
+        }
+
+        /**Menu 3**/
+        &__menu3 {
+            flex-basis: 250px;
+            height: 350px;
+            margin-top: 40px;
+            &--style_title {
+                font-size: 2.3em;
+            }
+            &--style_subtitle {
+                font-size: 2.5em;
+            }
+        }
+
+        /**Menu 4**/
+        &__menu4 {
+            flex-basis: 250px;
+            height: 350px;
+            margin-top: 40px;
+            &--style_title {
+                font-size: 2.3em;
+            }
+            &--style_subtitle {
+                font-size: 2.5em;
             }
         }
     }
 }
-@media (min-width: 847px) {
-    .container-home-menus {
-        .home-menus {
-            width: 935px;
-            /**Menu 1**/
-            &__menu1 {
-                margin-top: 40px;
-                margin-right: 30px;
-                margin-bottom: 30px;
-    
-                &--style_title {
-                    color: $text-color-menu1;
-                    margin-top: -1px;
-                    font-size: 2.9em;
-                }
-                &--style_subtitle {
-                    color: $text-color-menu1;
-                    font-size: 2.9em;
-                }
+
+
+/**RESPONSIVE 600px > 991px**/
+
+@media (min-width: 600px) {
+
+    .home-menus {
+        width: 400px;
+
+        /**Menu 1**/
+
+        &__menu1 {
+            flex-basis: 320px;
+            height: 450px;
+            &--style_title {
+                margin-top: -1px;
+                font-size: 2.8em;
             }
-            /**Menu 2**/
-            &__menu2 {
-                margin-top: 40px;
-    
-                &--style_title {
-                    font-size: 2.2em;
-                }
-                &--style_subtitle {
-                    font-size: 2.6em;
-                }
+            &--style_subtitle {
+                font-size: 2.8em;
             }
-            /**Menu 3**/
-            &__menu3 {
-                margin-right: 30px;
-    
-                &--style_title {
-                    font-size: 2.7em;
-                }
-                &--style_subtitle {
-                    font-size: 2.9em;
-                }
+        }
+
+        /**Menu 2**/
+        &__menu2 {
+            flex-basis: 320px;
+            height: 450px;
+            &--style_title {
+                font-size: 2.1em;
             }
-            /**Menu 4**/
-            &__menu4 {
-                &--style_title {
-                    font-size: 2.7em;
-                }
-                &--style_subtitle {
-                    font-size: 2.9em;
-                }
+            &--style_subtitle {
+                font-size: 2.5em;
+            }
+        }
+
+        /**Menu 3**/
+        &__menu3 {
+            flex-basis: 320px;
+            height: 450px;
+            margin-top: 40px;
+            &--style_title {
+                font-size: 2.6em;
+            }
+            &--style_subtitle {
+                font-size: 2.8em;
+            }
+        }
+
+        /**Menu 4**/
+        &__menu4 {
+            flex-basis: 320px;
+            height: 450px;
+            margin-top: 40px;
+            &--style_title {
+                font-size: 2.6em;
+            }
+            &--style_subtitle {
+                font-size: 2.8em;
+            }
+        }
+    }
+}
+
+
+/**RESPONSIVE 992px > +**/
+
+@media (min-width: 992px) {
+
+    .home-menus {
+        width: 900px;
+
+        /**Menu 1**/
+        &__menu1 {
+            flex-basis: 400px;
+            height: 565px;
+            margin-right: 30px;
+            margin-bottom: 30px;
+
+            &--style_title {
+                color: $text-color-menu1;
+                margin-top: -1px;
+                font-size: 2.9em;
+            }
+            &--style_subtitle {
+                color: $text-color-menu1;
+                font-size: 2.9em;
+            }
+        }
+
+        /**Menu 2**/
+        &__menu2 {
+            flex-basis: 400px;
+            height: 565px;
+
+            &--style_title {
+                font-size: 2.2em;
+            }
+            &--style_subtitle {
+                font-size: 2.6em;
+            }
+        }
+
+        /**Menu 3**/
+        &__menu3 {
+            flex-basis: 400px;
+            height: 565px;
+            margin-right: 30px;
+
+            &--style_title {
+                font-size: 2.7em;
+            }
+            &--style_subtitle {
+                font-size: 2.9em;
+            }
+        }
+        
+        /**Menu 4**/
+        &__menu4 {
+            flex-basis: 400px;
+            height: 565px;
+            &--style_title {
+                font-size: 2.7em;
+            }
+            &--style_subtitle {
+                font-size: 2.9em;
             }
         }
     }
