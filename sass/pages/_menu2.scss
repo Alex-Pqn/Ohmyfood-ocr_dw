@@ -50,11 +50,16 @@
 
 @media (max-width: 599px) {
 
-    .bloc_menu2 p {
-        font-size: 17px;
+    .bloc_menu2 {
+        width: 95%;
+        & p {
+            font-size: 14px;
+        }
     }
 
     .compo_menu2 {
+        width: 97%;
+
         /**main title**/
         &__main-title {
             &--style {
@@ -65,42 +70,42 @@
         /**Pour se mettre en appétit**/
         .part1_menu2 {
             &__l-bar {
-                width: 15%;
+                width: 16%;
             }
             &__txt {
-                width: 65%;
-                font-size: 17px;
+                width: 63%;
+                font-size: 16px;
             }
             &__r-bar {
-                width: 15%;
+                width: 16%;
             }
         }
         
         /**Plaisir des papilles**/
         .part2_menu2 {
             &__l-bar {
-                width: 15%;
+                width: 17%;
             }
             &__txt {
-                width: 49%;
-                font-size: 17px;
+                width: 47%;
+                font-size: 16px;
             }
             &__r-bar {
-                width: 15%;
+                width: 17%;
             }
         }
         
         /**Gourmandises sucrées**/
         .part3_menu2 {
             &__l-bar {
-                width: 15%;
+                width: 17%;
             }
             &__txt {
-                width: 58%;
-                font-size: 17px;
+                width: 57%;
+                font-size: 16px;
             }
             &__r-bar {
-                width: 15%;
+                width: 17%;
             }
         }
     }
@@ -112,14 +117,14 @@
 @media (min-width: 600px) {
 
     .bloc_menu2 {
-        width: 550px;
+        width: 90%;
         & p {
             font-size: 17px;
         }
     }
 
     .compo_menu2 {
-        width: 530px;
+        width: 95%;
         
         /**main title**/
         &__main-title {
@@ -148,7 +153,7 @@
                 width: 25%;
             }
             &__txt {
-                width: 33%;
+                width: 34%;
                 font-size: 20px;
             }
             &__r-bar {
@@ -162,7 +167,7 @@
                 width: 25%;
             }
             &__txt {
-                width: 39%;
+                width: 40%;
                 font-size: 20px;
             }
             &__r-bar {

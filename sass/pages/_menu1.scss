@@ -175,14 +175,14 @@
 @media (min-width: 600px) {
 
     .bloc_menu1 {
-        width: 550px;
+        width: 90%;
         & p {
             font-size: 24px;
         }
     }
 
     .compo_menu1 {
-        width: 530px;
+        width: 95%;
 
         /**main title**/
         &__main-title {
@@ -213,7 +213,7 @@
                 width: 30%;
             }
             &__txt {
-                width: 26%;
+                width: 28%;
                 font-size: 31px;
             }
             &__r-bar {
@@ -228,7 +228,7 @@
                 width: 30%;
             }
             &__txt {
-                width: 34%;
+                width: 36%;
                 font-size: 31px;
             }
             &__r-bar {
