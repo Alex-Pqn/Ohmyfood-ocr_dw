@@ -100,19 +100,19 @@
 @media (max-width: 599px) {
 
     .bloc_menu1 {
-        width: 930px;
+        width: 95%;
         & p {
-            font-size: 37px;
+            font-size: 21px;
         }
     }
 
     .compo_menu1 {
-        width: 910px;
+        width: 97%;
 
         /**main title**/
         &__main-title {
             &--style {
-                font-size: 4.7em;
+                font-size: 2.5em;
             }
         }
 
@@ -120,14 +120,14 @@
         .part1_menu1 {
             margin-top: 50px;
             &__l-bar {
-                width: 30%;
+                width: 20%;
             }
             &__txt {
-                width: 15%;
-                font-size: 50px;
+                width: 24%;
+                font-size: 25px;
             }
             &__r-bar {
-                width: 30%;
+                width: 20%;
             }
         }
 
@@ -135,14 +135,14 @@
         .part2_menu1 {
             margin-top: 55px;
             &__l-bar {
-                width: 30%;
+                width: 20%;
             }
             &__txt {
-                width: 25%;
-                font-size: 50px;
+                width: 41%;
+                font-size: 25px;
             }
             &__r-bar {
-                width: 30%;
+                width: 20%;
             }
         } 
 
@@ -150,21 +150,21 @@
         .part3_menu1 {
             margin-top: 55px;
             &__l-bar {
-                width: 30%;
+                width: 20%;
             }
             &__txt {
-                width: 32%;
-                font-size: 50px;
+                width: 52%;
+                font-size: 25px;
             }
             &__r-bar {
-                width: 30%;
+                width: 20%;
             }
         } 
 
         /**icon & title end**/
         .menu-end_menu1 {
             margin-top: 45px;
-            font-size: 45px;
+            font-size: 30px;
         }
     }
 }

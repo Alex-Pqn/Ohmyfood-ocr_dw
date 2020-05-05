@@ -83,10 +83,10 @@
             height: 405px;
             &--style_title {
                 margin-top: -1px;
-                font-size: 2.8em;
+                font-size: 2.5em;
             }
             &--style_subtitle {
-                font-size: 2.6em;
+                font-size: 2.4em;
             }
         }
 
@@ -136,7 +136,7 @@
 @media (min-width: 600px) {
 
     .home-menus {
-        width: 400px;
+        width: 320px;
 
         /**Menu 1**/
 
@@ -145,10 +145,10 @@
             height: 450px;
             &--style_title {
                 margin-top: -1px;
-                font-size: 2.8em;
+                font-size: 3em;
             }
             &--style_subtitle {
-                font-size: 2.8em;
+                font-size: 3em;
             }
         }
 
@@ -157,10 +157,10 @@
             flex-basis: 320px;
             height: 450px;
             &--style_title {
-                font-size: 2.1em;
+                font-size: 2.3em;
             }
             &--style_subtitle {
-                font-size: 2.5em;
+                font-size: 2.8em;
             }
         }
 
@@ -170,10 +170,10 @@
             height: 450px;
             margin-top: 40px;
             &--style_title {
-                font-size: 2.6em;
+                font-size: 2.9em;
             }
             &--style_subtitle {
-                font-size: 2.8em;
+                font-size: 3.1em;
             }
         }
 
@@ -183,10 +183,10 @@
             height: 450px;
             margin-top: 40px;
             &--style_title {
-                font-size: 2.6em;
+                font-size: 2.9em;
             }
             &--style_subtitle {
-                font-size: 2.8em;
+                font-size: 3.1em;
             }
         }
     }
