@@ -2,7 +2,7 @@
 /**Home Menus (1,2,3,4) - Zoom effect**/
 
 .home-menus article {
-    scale: (1);
+    transform: scale(1);
     transition-duration: 200ms;
     &:hover {
         transform: scale(1.05);
@@ -10,7 +10,7 @@
     }
 }
 
-/**Btn-soon Home Menu - Points effect**/
+/**Btn-soon (Home Menu) - Points effect**/
 
 .btn-soon_anim-one {
     opacity: 0;

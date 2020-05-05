@@ -4,7 +4,7 @@
   "description": "Projet 3 - OpenClassrooms",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css",
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed",
     "prefix": "postcss --watch ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "author": "Alex Pqn",
