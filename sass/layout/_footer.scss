@@ -18,11 +18,13 @@
     .footer {
         height: 45px;
         &__mentions {
+            padding-top: 12px;
             font-size: 1.2em;
             margin-left: 5px;
             @include footer;
         } 
         &__contact {
+            padding-top: 12px;
             font-size: 1.2em;
             margin-right: 5px;
             @include footer;
@@ -34,11 +36,13 @@
     .footer {
         height: 52px;
         &__mentions {
+            padding-top: 11px;
             font-size: 1.6em;
             margin-left: 20px;
             @include footer;
         } 
         &__contact {
+            padding-top: 11px;
             font-size: 1.6em;
             margin-right: 20px;
             @include footer;
@@ -50,11 +54,13 @@
     .footer {
         height: 57px;
         &__mentions {
+            padding-top: 10px;
             font-size: 1.7em;
             margin-left: 30px;
             @include footer;
         } 
         &__contact {
+            padding-top: 10px;
             font-size: 1.7em;
             margin-right: 30px;
             @include footer;

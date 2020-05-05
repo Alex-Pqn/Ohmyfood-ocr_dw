@@ -38,8 +38,6 @@
 
 .compo_menu-2-3-4 {
     &__main-title {
-        margin-top: 110px;
-        margin-bottom: 115px;
         text-align: center;
     }
     &__price {
@@ -80,7 +78,6 @@
 
     .part3_menu-2-3-4 {
         margin-top: 85px;
-        margin-bottom: 120px;
 
         &__l-bar {
             float: left;
@@ -99,4 +96,57 @@
 .part1_menu-2-3-4 aside, .part2_menu-2-3-4 aside, .part3_menu-2-3-4 aside {
     display: block;
     margin-bottom: 35px;
+}
+
+
+
+
+/**RESPONSIVE 320px > 599px**/
+
+@media (max-width: 599px) {
+
+    .compo_menu-2-3-4 {
+        &__main-title {
+            margin-top: 60px;
+            margin-bottom: 65px;
+        }
+    }
+
+    .part3_menu-2-3-4 {
+        margin-bottom: 60px;
+    } 
+}
+
+
+/**RESPONSIVE 600px > 991px**/
+
+@media (min-width: 600px) {
+    
+    .compo_menu-2-3-4 {
+        &__main-title {
+            margin-top: 90px;
+            margin-bottom: 95px;
+        }
+    }
+
+    .part3_menu-2-3-4 {
+        margin-bottom: 90px;
+    } 
+}
+
+
+/**RESPONSIVE 992px > +**/
+
+@media (min-width: 992px) {
+    
+    .compo_menu-2-3-4 {
+        &__main-title {
+            margin-top: 110px;
+            margin-bottom: 115px;
+        }
+    }
+
+    .part3_menu-2-3-4 {
+        margin-bottom: 120px;
+    } 
 }
