@@ -97,12 +97,12 @@
 
 /**RESPONSIVE 320px > 599px**/
 
-@media (min-device-width: 320px) {
+@media (max-width: 599px) {
 
     .bloc_menu1 {
         width: 930px;
         & p {
-            font-size: 40px;
+            font-size: 37px;
         }
     }
 
@@ -172,7 +172,7 @@
 
 /**RESPONSIVE 600px > 991px**/
 
-@media (min-device-width: 600px) {
+@media (min-width: 600px) {
 
     .bloc_menu1 {
         width: 550px;
@@ -247,7 +247,7 @@
 
 /**RESPONSIVE 992px > +**/
 
-    @media (min-device-width: 992px) {
+    @media (min-width: 992px) {
 
     .bloc_menu1 {
         width: 900px;
