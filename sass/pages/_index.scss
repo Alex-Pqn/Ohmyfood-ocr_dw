@@ -75,56 +75,56 @@
 @media (max-device-width: 599px) {
 
     .home-menus {
-        width: 400px;
+        width: 475px;
 
         /**Menu 1**/
         &__menu1 {
-            flex-basis: 380px;
-            height: 550px;
+            flex-basis: 475px;
+            height: 650px;
             &--style_title {
                 margin-top: -1px;
-                font-size: 3.3em;
+                font-size: 4.3em;
             }
             &--style_subtitle {
-                font-size: 3.3em;
+                font-size: 4.3em;
             }
         }
 
         /**Menu 2**/
         &__menu2 {
-            flex-basis: 380px;
-            height: 550px;
+            flex-basis: 475px;
+            height: 650px;
             &--style_title {
-                font-size: 2.8em;
+                font-size: 3.8em;
             }
             &--style_subtitle {
-                font-size: 3.8em;
+                font-size: 4.8em;
             }
         }
 
         /**Menu 3**/
         &__menu3 {
-            flex-basis: 380px;
-            height: 550px;
+            flex-basis: 475px;
+            height: 650px;
             margin-top: 40px;
             &--style_title {
-                font-size: 3.3em;
+                font-size: 4.3em;
             }
             &--style_subtitle {
-                font-size: 3.5em;
+                font-size: 4.5em;
             }
         }
 
         /**Menu 4**/
         &__menu4 {
-            flex-basis: 380px;
-            height: 550px;
+            flex-basis: 475px;
+            height: 650px;
             margin-top: 40px;
             &--style_title {
-                font-size: 3.3em;
+                font-size: 4.3em;
             }
             &--style_subtitle {
-                font-size: 3.5em;
+                font-size: 4.5em;
             }
         }
     }
