@@ -17,18 +17,18 @@
     }
 }
 
-@media (min-device-width: 320px) {
+@media (max-width: 599px) {
     .header {
-        height: 100px;
+        height: 90px;
 
         &__txt {
-            margin-top: 18px;
+            margin-top: 14px;
             font-size: 2.6em;
         }
     }
 }
 
-@media (min-device-width: 600px) {
+@media (min-width: 600px) {
     .header {
         height: 90px;
     
@@ -39,7 +39,7 @@
     }
 }
 
-@media (min-device-width: 992px) {
+@media (min-width: 992px) {
     .header {
         height: 100px;
 

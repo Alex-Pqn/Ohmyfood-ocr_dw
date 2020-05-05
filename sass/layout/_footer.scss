@@ -12,58 +12,57 @@
     &--color {
         background-color: $background-color-hdr_ftr_btnsn
     }
-
-    &__mentions {
-        margin-left: 35px;
-    } 
-    &__contact {
-        margin-right: 35px;
-    } 
 }
 
-@media (min-device-width: 320px) {
+@media (max-width: 599px) {
     .footer {
-        height: 120px;
+        height: 80px;
         &__mentions {
-            font-size: 3.1em;
+            font-size: 1.2em;
             margin-top: 18px;
+            margin-left: 5px;
             @include footer;
         } 
         &__contact {
-            font-size: 3.1em;
+            font-size: 1.2em;
             margin-top: 18px;
+            margin-right: 5px;
             @include footer;
         } 
     }   
 }
 
-@media (min-device-width: 600px) {
+@media (min-width: 600px) {
     .footer {
         height: 52px;
         &__mentions {
             font-size: 1.5em;
             margin-top: 19px;
+            margin-left: 35px;
             @include footer;
         } 
         &__contact {
             font-size: 1.5em;
             margin-top: 19px;
+            margin-right: 35px;
             @include footer;
         } 
     }   
 }
 
-@media (min-device-width: 992px) {
+@media (min-width: 992px) {
     .footer {
         height: 57px;
         &__mentions {
             font-size: 1.6em;
             margin-top: 2px;
+            margin-left: 35px;
             @include footer;
         } 
         &__contact {
             font-size: 1.6em;
             margin-top: 2px;
+            margin-right: 35px;
             @include footer;
         } 
     }   
