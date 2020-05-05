@@ -97,13 +97,18 @@
 
 /**RESPONSIVE 320px > 599px**/
 
-@media (min-width: 320px) {
+@media (min-device-width: 320px) {
 
-    .bloc_menu1 p {
-        font-size: 19px;
+    .bloc_menu1 {
+        width: 930px;
+        & p {
+            font-size: 40px;
+        }
     }
 
     .compo_menu1 {
+        width: 910px;
+
         /**main title**/
         &__main-title {
             &--style {
@@ -167,7 +172,7 @@
 
 /**RESPONSIVE 600px > 991px**/
 
-@media (min-width: 600px) {
+@media (min-device-width: 600px) {
 
     .bloc_menu1 {
         width: 550px;
@@ -242,7 +247,7 @@
 
 /**RESPONSIVE 992px > +**/
 
-    @media (min-width: 992px) {
+    @media (min-device-width: 992px) {
 
     .bloc_menu1 {
         width: 900px;
