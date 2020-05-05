@@ -1,16 +1,8 @@
 @font-face {
-    font-family: "Cursive standard Bold";
-    src: url("../../fonts/Cursivestandard-Bold.ttf"); }
-
-@font-face {
-    font-family: "Cursive standard";
-    src: url("../../fonts/Cursivestandard.ttf"); }
-
-@font-face {
-    font-family: "Caveat Bold";
+    font-family: "CaveatB";
     src: url("../../fonts/Caveat-Bold.ttf"); }
 @font-face {
-    font-family: "Caveat Regular";
+    font-family: "CaveatR";
     src: url("../../fonts/Caveat-Regular.ttf"); }
 @font-face {
     font-family: "Devonshire";
@@ -25,126 +17,124 @@
     font-family: "Kaushan";
     src: url("../../fonts/KaushanScript-Regular.ttf"); }
 @font-face {
-    font-family: "Source Serif Pro Regular";
+    font-family: "SourceSPR";
     src: url("../../fonts/SourceSerifPro-Regular.otf"); }
 @font-face {
-    font-family: "Source Serif Pro";
+    font-family: "SourceSP";
     src: url("../../fonts/SourceSerifPro-Bold.otf"); }
 
 
 /**Header, Footer, Btn Soon**/
 
 .header__txt--style {
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-family: cursive, 'Cursive standard Bold', Arial, Helvetica, sans-serif;
+    font-family: cursive, Arial, Helvetica, sans-serif;
     font-weight: 800;
 }
 .footer__mentions--style, .footer__contact--style, .btn-soon__txt--style {
-    -webkit-font-smoothing: subpixel-antialiased;
-    font-family: cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: cursive, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
 /**Home Menu 1**/
 
 .home-menus__menu1--style_title {
-    font-family: 'Devonshire', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Devonshire', cursive, Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 .home-menus__menu1--style_subtitle {
-    font-family: 'Caveat Bold', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'CaveatB', cursive, Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 
 /**Home Menu 2**/
 
 .home-menus__menu2--style_title {
-    font-family: 'Junicode', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Junicode', cursive, Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 .home-menus__menu2--style_subtitle {
-    font-family: 'Times New Roman', Times, serif, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
 
 /**Home Menu 3**/
 
 .home-menus__menu3--style_title {
-    font-family: 'Dancing', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Dancing', cursive, Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 .home-menus__menu3--style_subtitle {
-    font-family: 'Kaushan', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Kaushan', cursive, Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 
 /**Home Menu 4**/
 
 .home-menus__menu4--style_title, .home-menus__menu4--style_subtitle {
-    font-family: 'Kaushan', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Kaushan', cursive, Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 
 /**Menu 1**/
 
 .compo_menu1__main-title--style {
-    font-family: 'Devonshire', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Devonshire', cursive, Arial, Helvetica, sans-serif;
     font-weight: 500;
     
 }
 .part1_menu1__txt, .part2_menu1__txt, .part3_menu1__txt {
-    font-family: 'Caveat Bold', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'CaveatB', cursive, Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
 .compo_menu1 {
-    font-family: 'Caveat Regular', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'CaveatR', cursive, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 .menu-end_menu1 {
-    font-family: 'Devonshire', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Devonshire', cursive, Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
 
 /**Menu 2**/
 
 .compo_menu2__main-title--style {
-    font-family: 'Junicode', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Junicode', cursive, Arial, Helvetica, sans-serif;
     font-weight: 700;
     
 }
 .compo_menu2 {
-    font-family: 'Source Serif Pro Regular', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'SourceSPR', cursive, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 .part1_menu2--color h3, .part2_menu2--color h3, .part3_menu2--color h3 {
-    font-family: 'Source Serif Pro', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'SourceSP', cursive, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
 /**Menu 3**/
 
 .compo_menu3__main-title--style {
-    font-family: 'Dancing', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Dancing', cursive, Arial, Helvetica, sans-serif;
     font-weight: 400;
     
 }
 .compo_menu3 p {
-    font-family: 'Caveat Regular', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'CaveatR', cursive, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 .part1_menu3--color h3, .part2_menu3--color h3, .part3_menu3--color h3 {
-    font-family: 'Source Serif Pro', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'SourceSP', cursive, Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
 
 /**Menu 4**/
 
 .compo_menu4__main-title--style {
-    font-family: 'Dancing', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'Dancing', cursive, Arial, Helvetica, sans-serif;
     font-weight: normal;
     
 }
 .compo_menu4 p, .compo_menu4 h3 {
-    font-family: 'Caveat Regular', cursive, 'Cursive standard', Arial, Helvetica, sans-serif;
+    font-family: 'CaveatR', cursive, Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
