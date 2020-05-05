@@ -45,6 +45,8 @@
 @media (max-width: 599px) {
 
     .bloc_menu3 {
+        width: 95%;
+
         & p {
             font-size: 22px;
         }
@@ -54,11 +56,12 @@
     }
 
     .compo_menu3 {
+        width: 97%;
 
         /**main title**/
         &__main-title {
             &--style {
-                font-size: 2em;
+                font-size: 2.5em;
             }
         }
     
@@ -68,7 +71,7 @@
                 width: 15%;
             }
             &__txt {
-                width: 60%;
+                width: 61%;
                 font-size: 25px;
             }
             &__r-bar {
@@ -82,7 +85,7 @@
                 width: 15%;
             }
             &__txt {
-                width: 55%;
+                width: 56%;
                 font-size: 25px;
             }
             &__r-bar {
@@ -112,17 +115,18 @@
 @media (min-width: 600px) {
 
     .bloc_menu3 {
-        width: 550px;
+        width: 90%;
+
         & p {
             font-size: 23px;
         }
         & span {
-            font-size: 26px;
+            font-size: 25px;
         }
     }
 
     .compo_menu3 {
-        width: 530px;
+        width: 95%;
 
         /**main title**/
         &__main-title {
@@ -134,42 +138,42 @@
         /**Pour bien commencer**/
         .part1_menu3 {
             &__l-bar {
-                width: 25%;
+                width: 26%;
             }
             &__txt {
-                width: 37%;
-                font-size: 27px;
+                width: 41%;
+                font-size: 29px;
             }
             &__r-bar {
-                width: 25%;
+                width: 26%;
             }
         }
         
         /**Pour bien continuer**/
         .part2_menu3 {
             &__l-bar {
-                width: 25%;
+                width: 26%;
             }
             &__txt {
-                width: 35%;
-                font-size: 27px;
+                width: 38%;
+                font-size: 29px;
             }
             &__r-bar {
-                width: 25%;
+                width: 26%;
             }
         }
         
         /**Pour bien terminer**/
         .part3_menu3 {
             &__l-bar {
-                width: 25%;
+                width: 26%;
             }
             &__txt {
-                width: 34%;
-                font-size: 27px;
+                width: 36%;
+                font-size: 29px;
             }
             &__r-bar {
-                width: 25%;
+                width: 26%;
             }
         }
     }
