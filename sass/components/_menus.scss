@@ -2,7 +2,8 @@
 /**Menus 1,2,3,4**/
 
 .bloc_menu1, .bloc_menu-2-3-4 {
-    @include bloc_menu
+    height: auto;
+    @include bloc_menu;
 }
 
 .title-g-menus {
@@ -12,18 +13,15 @@
     color: $titles-g-menus;
 }
 
-/**RESPONSIVE 320px > 599px**/
-
+/**Responsive "title-g-menus" - 320px > 599px**/
 @media (max-width: 599px) {
-
     .title-g-menus {
         font-size: 1.8em;
     }
 }
 
-/**RESPONSIVE 600px > +**/
+/**Responsive "title-g-menus" - 600px > +**/
 @media (min-width: 600px) {
-
     .title-g-menus {
         font-size: 2.1em;
     }
@@ -97,8 +95,6 @@
     display: block;
     margin-bottom: 35px;
 }
-
-
 
 
 /**RESPONSIVE 320px > 599px**/

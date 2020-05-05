@@ -40,13 +40,12 @@
 }
 
 
-/**RESPONSIVE 320px > 599px**/
+/**RESPONSIVE ~320px > 599px**/
 
 @media (max-width: 599px) {
 
     .bloc_menu3 {
         width: 95%;
-
         & p {
             font-size: 22px;
         }
@@ -116,7 +115,6 @@
 
     .bloc_menu3 {
         width: 90%;
-
         & p {
             font-size: 23px;
         }

@@ -1,5 +1,5 @@
 
-/**Footer (appears on all pages)**/
+/**Footer**/
 
 .footer {
     display: flex;
@@ -14,9 +14,14 @@
     }
 }
 
+
+/**RESPONSIVE ~320px > 599px**/
+
 @media (max-width: 599px) {
+
     .footer {
         height: 45px;
+
         &__mentions {
             padding-top: 12px;
             font-size: 1.2em;
@@ -32,9 +37,14 @@
     }   
 }
 
+
+/**RESPONSIVE 600px > 991px**/
+
 @media (min-width: 600px) {
+
     .footer {
         height: 52px;
+
         &__mentions {
             padding-top: 11px;
             font-size: 1.6em;
@@ -50,9 +60,14 @@
     }   
 }
 
+
+/**RESPONSIVE 992px > +**/
+
 @media (min-width: 992px) {
+
     .footer {
         height: 57px;
+
         &__mentions {
             padding-top: 10px;
             font-size: 1.7em;

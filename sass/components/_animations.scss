@@ -1,7 +1,7 @@
 
 /**Home Menus (1,2,3,4) - Zoom effect**/
 
-.home-menus article {
+.home-menus article a {
     transform: scale(1);
     transition-duration: 200ms;
     &:hover {
@@ -10,7 +10,8 @@
     }
 }
 
-/**Btn-soon (Home Menu) - Points effect**/
+
+/**Btn-soon (Home Menu) - Pts effect**/
 
 .btn-soon_anim-one {
     opacity: 0;
@@ -27,6 +28,7 @@
     animation: susp-pts_effect 3s infinite;
     animation-delay: 1.5s;
 }
+
 @keyframes susp-pts_effect {
     0%, 10% {
         opacity: 0;
@@ -36,6 +38,7 @@
     }
 }
 
+
 /**Footer (Mentions légales & Contactez-nous) - Wiggle effect**/
 
 .footer a {
@@ -43,6 +46,7 @@
         animation: wigle_effect 150ms both cubic-bezier(1, 0, 0, 1) infinite;
     }
 }
+
 @keyframes wigle_effect {
     0% {
         transform: rotate(.5deg);
@@ -57,6 +61,7 @@
         transform: rotate(-.5deg);
     } 
 }
+
 
 /**Menus (1,2,3,4) - Underline effect**/
 
@@ -78,15 +83,14 @@
     transition: width .5s;
 }
 
-/**~ Menus 1**/
+/**Menus 1 - Underline effect**/
 .part1_menu1 aside p:hover:after, .part2_menu1 aside p:hover:after, .part3_menu1 aside p:hover:after {
     background: $text-color-menu1;
     width: 100%;
     left: 0;
 }
 
-/**~ Menus 2**/
-
+/**Menus 2 - Underline effect**/
 .part1_menu2--color_txt aside p:hover:after, .part2_menu2--color_txt aside p:hover:after, .part3_menu2--color_txt aside p:hover:after {
     width: 100%;
     left: 0;
@@ -104,8 +108,7 @@
     background: $text-color-part3-menu2;
 }
 
-/**~ Menus 3**/
-
+/**Menus 3 - Underline effect**/
 .part1_menu3 aside p:hover:after, .part2_menu3 aside p:hover:after, .part3_menu3 aside p:hover:after {
     width: 100%;
     left: 0;
@@ -123,8 +126,7 @@
     background: $bar-color-menu3_part3;
 }
 
-/**~ Menus 4**/
-
+/**Menus 4 - Underline effect**/
 .part1_menu4 aside p:hover:after, .part2_menu4 aside p:hover:after, .part3_menu4 aside p:hover:after {
     background: $bar-color-menu4_deg2;
     width: 100%;

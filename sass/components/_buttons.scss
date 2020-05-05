@@ -1,5 +1,5 @@
 
-/**Button soon (home page)**/
+/**Button-soon (home page)**/
 
 .btn-soon {
     display: flex;
@@ -16,13 +16,15 @@
         align-items: center;
         justify-content: center;
         border-radius: 8px;
-            
         &--style {
             text-decoration: $text-decoration;
             color: $text-color-hdr_ftr_btnsn;
         }
     }
 }
+
+
+/**RESPONSIVE ~320px > 599px**/
 
 @media (max-width: 599px) {
     .btn-soon {
@@ -34,6 +36,9 @@
     }
 }
 
+
+/**RESPONSIVE 600px > 991px**/
+
 @media (min-width: 600px) {
     .btn-soon {
         &__txt {
@@ -43,6 +48,9 @@
         }
     }
 }
+
+
+/**RESPONSIVE 992px > +**/
 
 @media (min-width: 992px) {
     .btn-soon {

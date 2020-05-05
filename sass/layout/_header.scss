@@ -1,5 +1,5 @@
 
-/**Header (appears on all pages)**/
+/**Header**/
 
 .header {
     margin-bottom: 0.5em;
@@ -17,7 +17,11 @@
     }
 }
 
+
+/**RESPONSIVE ~320px > 599px**/
+
 @media (max-width: 599px) {
+    
     .header {
         height: 90px;
 
@@ -28,7 +32,11 @@
     }
 }
 
+
+/**RESPONSIVE 600px > 991px**/
+
 @media (min-width: 600px) {
+
     .header {
         height: 95px;
     
@@ -39,7 +47,11 @@
     }
 }
 
+
+/**RESPONSIVE 992px > +**/
+
 @media (min-width: 992px) {
+
     .header {
         height: 100px;
 
