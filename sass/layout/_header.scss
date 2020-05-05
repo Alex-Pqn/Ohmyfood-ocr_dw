@@ -19,18 +19,18 @@
 
 
 
-@media (min-width: 320px) {
+@media (min-device-width: 320px) {
     .header {
-        height: 75px;
+        height: 150px;
 
         &__txt {
-            margin-top: 12px;
-            font-size: 2em;
+            margin-top: 35px;
+            font-size: 3.5em;
         }
     }
 }
 
-@media (min-width: 600px) {
+@media (min-device-width: 600px) {
     .header {
         height: 90px;
     
@@ -41,7 +41,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-device-width: 992px) {
     .header {
         height: 100px;
 

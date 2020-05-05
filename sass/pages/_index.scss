@@ -72,59 +72,59 @@
 
 /**RESPONSIVE 320px > 599px**/
 
-@media (min-width: 320px) {
+@media (max-device-width: 599px) {
 
     .home-menus {
         width: 400px;
 
         /**Menu 1**/
         &__menu1 {
-            flex-basis: 250px;
-            height: 350px;
+            flex-basis: 380px;
+            height: 550px;
             &--style_title {
                 margin-top: -1px;
-                font-size: 2.3em;
+                font-size: 3.3em;
             }
             &--style_subtitle {
-                font-size: 2.3em;
+                font-size: 3.3em;
             }
         }
 
         /**Menu 2**/
         &__menu2 {
-            flex-basis: 250px;
-            height: 350px;
+            flex-basis: 380px;
+            height: 550px;
             &--style_title {
-                font-size: 1.8em;
+                font-size: 2.8em;
             }
             &--style_subtitle {
-                font-size: 2.2em;
+                font-size: 3.8em;
             }
         }
 
         /**Menu 3**/
         &__menu3 {
-            flex-basis: 250px;
-            height: 350px;
+            flex-basis: 380px;
+            height: 550px;
             margin-top: 40px;
             &--style_title {
-                font-size: 2.3em;
+                font-size: 3.3em;
             }
             &--style_subtitle {
-                font-size: 2.5em;
+                font-size: 3.5em;
             }
         }
 
         /**Menu 4**/
         &__menu4 {
-            flex-basis: 250px;
-            height: 350px;
+            flex-basis: 380px;
+            height: 550px;
             margin-top: 40px;
             &--style_title {
-                font-size: 2.3em;
+                font-size: 3.3em;
             }
             &--style_subtitle {
-                font-size: 2.5em;
+                font-size: 3.5em;
             }
         }
     }
@@ -133,7 +133,7 @@
 
 /**RESPONSIVE 600px > 991px**/
 
-@media (min-width: 600px) {
+@media (min-device-width: 600px) and (max-device-width: 991px) {
 
     .home-menus {
         width: 400px;
@@ -195,7 +195,7 @@
 
 /**RESPONSIVE 992px > +**/
 
-@media (min-width: 992px) {
+@media (min-device-width: 992px) {
 
     .home-menus {
         width: 900px;
