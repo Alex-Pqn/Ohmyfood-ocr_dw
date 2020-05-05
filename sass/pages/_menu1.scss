@@ -85,7 +85,7 @@
     .menu-end_menu1 {
         text-align: center;
         &__icon {
-            margin-right: 15px;
+            margin-right: 18px;
         }
     }
 }
@@ -112,7 +112,7 @@
         /**main title**/
         &__main-title {
             &--style {
-                font-size: 2.2em;
+                font-size: 4.2em;
             }
         }
 
@@ -120,14 +120,14 @@
         .part1_menu1 {
             margin-top: 50px;
             &__l-bar {
-                width: 25%;
+                width: 30%;
             }
             &__txt {
                 width: 13%;
                 font-size: 45px;
             }
             &__r-bar {
-                width: 25%;
+                width: 30%;
             }
         }
 
@@ -135,14 +135,14 @@
         .part2_menu1 {
             margin-top: 55px;
             &__l-bar {
-                width: 25%;
+                width: 30%;
             }
             &__txt {
                 width: 22%;
                 font-size: 45px;
             }
             &__r-bar {
-                width: 25%;
+                width: 30%;
             }
         } 
 
@@ -150,21 +150,21 @@
         .part3_menu1 {
             margin-top: 55px;
             &__l-bar {
-                width: 25%;
+                width: 30%;
             }
             &__txt {
                 width: 29%;
                 font-size: 45px;
             }
             &__r-bar {
-                width: 25%;
+                width: 30%;
             }
         } 
 
         /**icon & title end**/
         .menu-end_menu1 {
             margin-top: 45px;
-            font-size: 30px;
+            font-size: 45px;
         }
     }
 }
