@@ -25,13 +25,13 @@
     .footer {
         height: 120px;
         &__mentions {
-            font-size: 3.3em;
-            margin-top: 15px;
+            font-size: 3.7em;
+            margin-top: 10px;
             @include footer;
         } 
         &__contact {
-            font-size: 3.3em;
-            margin-top: 15px;
+            font-size: 3.7em;
+            margin-top: 10px;
             @include footer;
         } 
     }   
