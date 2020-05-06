@@ -47,14 +47,14 @@
 
         &__l-bar {
             float: left;
-            height: 4px;
+            height: auto;
         }
         &__txt {
             @include menu2_3_4-parts-txt
         }
         &__r-bar {
             float: right;
-            height: 4px;
+            height: auto;
         }
     }
 
@@ -63,14 +63,14 @@
 
         &__l-bar {
             float: left;
-            height: 4px;
+            height: auto;
         }
         &__txt {
             @include menu2_3_4-parts-txt
         }
         &__r-bar {
             float: right;
-            height: 4px;
+            height: auto;
         }
     } 
 
@@ -79,14 +79,14 @@
 
         &__l-bar {
             float: left;
-            height: 4px;
+            height: auto;
         }
         &__txt {
             @include menu2_3_4-parts-txt
         }
         &__r-bar {
             float: right;
-            height: 4px;
+            height: auto;
         }
     } 
 }

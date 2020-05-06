@@ -33,14 +33,12 @@
         }
         &__l-bar {
             float: left;
-            @include parts_menu1_bars
         }
         &__txt {
             @include parts_menu1_txt
         }
         &__r-bar {
             float: right;
-            @include parts_menu1_bars
         }
     }
 
@@ -51,14 +49,12 @@
         }
         &__l-bar {
             float: left;
-            @include parts_menu1_bars
         }
         &__txt {
             @include parts_menu1_txt
         }
         &__r-bar {
             float: right;
-            @include parts_menu1_bars
         }
     } 
 
@@ -69,14 +65,12 @@
         }
         &__l-bar {
             float: left;
-            @include parts_menu1_bars
         }
         &__txt {
             @include parts_menu1_txt
         }
         &__r-bar {
             float: right;
-            @include parts_menu1_bars
         }
     } 
 
@@ -119,14 +113,16 @@
         .part1_menu1 {
             margin-top: 50px;
             &__l-bar {
-                width: 20%;
+                width: 25%;
+                margin-top: -3px;
             }
             &__txt {
-                width: 24%;
-                font-size: 25px;
+                width: 20%;
+                font-size: 22px;
             }
             &__r-bar {
-                width: 20%;
+                width: 25%;
+                margin-top: -5px;
             }
         }
 
@@ -134,14 +130,16 @@
         .part2_menu1 {
             margin-top: 55px;
             &__l-bar {
-                width: 20%;
+                width: 25%;
+                margin-top: -5px;
             }
             &__txt {
-                width: 41%;
-                font-size: 25px;
+                width: 33%;
+                font-size: 22px;
             }
             &__r-bar {
-                width: 20%;
+                width: 25%;
+                margin-top: -6px;
             }
         } 
 
@@ -149,14 +147,16 @@
         .part3_menu1 {
             margin-top: 55px;
             &__l-bar {
-                width: 20%;
+                width: 25%;
+                margin-top: -5px;
             }
             &__txt {
-                width: 52%;
+                width: 48%;
                 font-size: 25px;
             }
             &__r-bar {
-                width: 20%;
+                width: 25%;
+                margin-top: -6px;
             }
         } 
 
@@ -195,6 +195,7 @@
             margin-top: 65px;
             &__l-bar {
                 width: 30%;
+                margin-top: -8px;
             }
             &__txt {
                 width: 15%;
@@ -202,6 +203,7 @@
             }
             &__r-bar {
                 width: 30%;
+                margin-top: -10px;
             }
         }
 
@@ -210,6 +212,7 @@
             margin-top: 85px;
             &__l-bar {
                 width: 30%;
+                margin-top: -11px;
             }
             &__txt {
                 width: 28%;
@@ -217,6 +220,7 @@
             }
             &__r-bar {
                 width: 30%;
+                margin-top: -12px;
             }
         }
 
@@ -225,6 +229,7 @@
             margin-top: 85px;
             &__l-bar {
                 width: 30%;
+                margin-top: -16px;
             }
             &__txt {
                 width: 36%;
@@ -232,6 +237,7 @@
             }
             &__r-bar {
                 width: 30%;
+                margin-top: -13px;
             }
         } 
 
@@ -270,6 +276,7 @@
             margin-top: 65px;
             &__l-bar {
                 width: 30%;
+                margin-top: -10px;
             }
             &__txt {
                 width: 15%;
@@ -277,6 +284,7 @@
             }
             &__r-bar {
                 width: 30%;
+                margin-top: -12px;
             }
         }
 
@@ -285,6 +293,7 @@
             margin-top: 85px;
             &__l-bar {
                 width: 30%;
+                margin-top: -14px;
             }
             &__txt {
                 width: 26%;
@@ -292,6 +301,7 @@
             }
             &__r-bar {
                 width: 30%;
+                margin-top: -15px;
             }
         } 
 
@@ -300,6 +310,7 @@
             margin-top: 85px;
             &__l-bar {
                 width: 30%;
+                margin-top: -22px;
             }
             &__txt {
                 width: 34%;
@@ -307,6 +318,7 @@
             }
             &__r-bar {
                 width: 30%;
+                margin-top: -17px;
             }
         } 
 

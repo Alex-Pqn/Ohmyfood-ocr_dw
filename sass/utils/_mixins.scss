@@ -40,10 +40,6 @@
     line-height: 1px;
     text-align: center;
 }
-@mixin parts_menu1_bars {
-    height: 4px;
-    background: $text-color-menu1;
-}
 
 /**Other**/
 @mixin degraded-text {
