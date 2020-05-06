@@ -8,33 +8,18 @@
 .compo_menu3 {
     color: $text-color-menu3;
 
+    & aside {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
     /**main title & prices**/
     &__main-title {
         &--style {
             font-size: 4em;
             background: -webkit-gradient(linear, left top, right bottom, from($title-color-menu3_1), to($title-color-menu3_2));
             @include degraded-text;
-        }
-    }
-
-    /**Pour bien commencer**/
-    .part1_menu3 {
-        &--style_bars {
-            background: $bar-color-menu3_part1;
-        }
-    }
-
-    /**Pour bien continuer**/
-    .part2_menu3 {
-        &--style_bars {
-            background: $bar-color-menu3_part2;
-        }
-    }
-
-    /**Pour bien terminer**/
-    .part3_menu3 {
-        &--style_bars {
-            background: $bar-color-menu3_part3;
         }
     }
 }
@@ -47,10 +32,10 @@
     .bloc_menu3 {
         width: 95%;
         & p {
-            font-size: 22px;
+            font-size: 21px;
         }
         & span {
-            font-size: 26px;
+            font-size: 23px;
         }
     }
 
@@ -67,42 +52,42 @@
         /**Pour bien commencer**/
         .part1_menu3 {
             &__l-bar {
-                width: 15%;
+                width: 19%;
             }
             &__txt {
-                width: 61%;
-                font-size: 25px;
+                width: 58%;
+                font-size: 24px;
             }
             &__r-bar {
-                width: 15%;
+                width: 19%;
             }
         }
         
         /**Pour bien continuer**/
         .part2_menu3 {
             &__l-bar {
-                width: 15%;
+                width: 22%;
             }
             &__txt {
-                width: 56%;
-                font-size: 25px;
+                width: 54%;
+                font-size: 24px;
             }
             &__r-bar {
-                width: 15%;
+                width: 22%;
             }
         }
         
         /**Pour bien terminer**/
         .part3_menu3 {
             &__l-bar {
-                width: 15%;
+                width: 22%;
             }
             &__txt {
-                width: 54%;
-                font-size: 25px;
+                width: 52%;
+                font-size: 24px;
             }
             &__r-bar {
-                width: 15%;
+                width: 22%;
             }
         }
     }
@@ -136,42 +121,42 @@
         /**Pour bien commencer**/
         .part1_menu3 {
             &__l-bar {
-                width: 26%;
+                width: 28%;
             }
             &__txt {
                 width: 41%;
                 font-size: 29px;
             }
             &__r-bar {
-                width: 26%;
+                width: 28%;
             }
         }
         
         /**Pour bien continuer**/
         .part2_menu3 {
             &__l-bar {
-                width: 26%;
+                width: 28%;
             }
             &__txt {
                 width: 38%;
                 font-size: 29px;
             }
             &__r-bar {
-                width: 26%;
+                width: 28%;
             }
         }
         
         /**Pour bien terminer**/
         .part3_menu3 {
             &__l-bar {
-                width: 26%;
+                width: 28%;
             }
             &__txt {
                 width: 36%;
                 font-size: 29px;
             }
             &__r-bar {
-                width: 26%;
+                width: 28%;
             }
         }
     }

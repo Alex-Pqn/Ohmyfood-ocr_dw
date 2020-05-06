@@ -16,6 +16,10 @@
         justify-content: center;
         flex-flow: row wrap;
     }
+    & span {
+        font-weight: bold;
+        float: right;
+    }
     
     /**icon, main title & prices**/
     &__main-img {
@@ -25,10 +29,6 @@
     &__main-title {
         margin-top: -0.1px;
         text-align: center;
-    }
-    &__price {
-        font-weight: bold;
-        float: right;
     }
 
     /**Prélude**/

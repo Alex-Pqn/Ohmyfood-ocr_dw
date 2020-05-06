@@ -16,6 +16,9 @@
             margin-top: 40px;
             @include home-menus;
 
+            &__main-img {
+                width: 50%;
+            }
             &--style_title {
                 color: $text-color-menu1;
             }
@@ -81,6 +84,7 @@
         &__menu1 {
             flex-basis: 275px;
             height: 405px;
+
             &--style_title {
                 margin-top: -1px;
                 font-size: 2.5em;
@@ -94,6 +98,7 @@
         &__menu2 {
             flex-basis: 275px;
             height: 405px;
+
             &--style_title {
                 font-size: 1.8em;
             }
@@ -107,6 +112,7 @@
             flex-basis: 275px;
             height: 405px;
             margin-top: 40px;
+
             &--style_title {
                 font-size: 2.6em;
             }
@@ -120,6 +126,7 @@
             flex-basis: 275px;
             height: 405px;
             margin-top: 40px;
+
             &--style_title {
                 font-size: 2.3em;
             }
@@ -143,6 +150,7 @@
         &__menu1 {
             flex-basis: 320px;
             height: 450px;
+
             &--style_title {
                 margin-top: -1px;
                 font-size: 3em;
@@ -156,6 +164,7 @@
         &__menu2 {
             flex-basis: 320px;
             height: 450px;
+
             &--style_title {
                 font-size: 2.3em;
             }
@@ -169,6 +178,7 @@
             flex-basis: 320px;
             height: 450px;
             margin-top: 40px;
+
             &--style_title {
                 font-size: 2.9em;
             }
@@ -182,6 +192,7 @@
             flex-basis: 320px;
             height: 450px;
             margin-top: 40px;
+
             &--style_title {
                 font-size: 2.9em;
             }
@@ -249,6 +260,7 @@
         &__menu4 {
             flex-basis: 400px;
             height: 565px;
+
             &--style_title {
                 font-size: 2.7em;
             }

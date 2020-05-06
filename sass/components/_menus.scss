@@ -35,10 +35,11 @@
 }
 
 .compo_menu-2-3-4 {
+
     &__main-title {
         text-align: center;
     }
-    &__price {
+    & span {
         float: right;
     }
 
@@ -47,14 +48,12 @@
 
         &__l-bar {
             float: left;
-            height: auto;
         }
         &__txt {
             @include menu2_3_4-parts-txt
         }
         &__r-bar {
             float: right;
-            height: auto;
         }
     }
 
@@ -63,14 +62,12 @@
 
         &__l-bar {
             float: left;
-            height: auto;
         }
         &__txt {
             @include menu2_3_4-parts-txt
         }
         &__r-bar {
             float: right;
-            height: auto;
         }
     } 
 
@@ -79,14 +76,12 @@
 
         &__l-bar {
             float: left;
-            height: auto;
         }
         &__txt {
             @include menu2_3_4-parts-txt
         }
         &__r-bar {
             float: right;
-            height: auto;
         }
     } 
 }
