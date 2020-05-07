@@ -6,11 +6,6 @@
 }
 
 .compo_menu2 {
-    & aside {
-        display: flex;
-        justify-content: center;
-        flex-flow: row wrap;
-    }
 
     /**main title**/
     &__main-title {
@@ -22,6 +17,7 @@
 
     /**Pour se mettre en appétit**/
     .part1_menu2 {
+        margin-top: 65px;
         &--color_txt {
             color: $text-color-part1-menu2;
         }
@@ -29,6 +25,7 @@
     
     /**Plaisir des papilles**/
     .part2_menu2 {
+        margin-top: 85px;
         &--color_txt {
             color: $text-color-part2-menu2;
         }
@@ -36,6 +33,7 @@
     
     /**Gourmandises sucrées**/
     .part3_menu2 {
+        margin-top: 85px;
         &--color_txt {
             color: $text-color-part3-menu2;
         }
@@ -59,6 +57,8 @@
 
         /**main title**/
         &__main-title {
+            margin-top: 60px;
+            margin-bottom: 65px;
             &--style {
                 font-size: 1.8em;
             }
@@ -70,7 +70,7 @@
                 width: 18.5%;
             }
             &__txt {
-                width: 63%;
+                width: 58%;
                 font-size: 15px;
             }
             &__r-bar {
@@ -84,7 +84,7 @@
                 width: 26%;
             }
             &__txt {
-                width: 47%;
+                width: 44%;
                 font-size: 15px;
             }
             &__r-bar {
@@ -94,11 +94,12 @@
         
         /**Gourmandises sucrées**/
         .part3_menu2 {
+            margin-bottom: 60px;
             &__l-bar {
                 width: 21.5%;
             }
             &__txt {
-                width: 57%;
+                width: 53%;
                 font-size: 15px;
             }
             &__r-bar {
@@ -125,6 +126,8 @@
         
         /**main title**/
         &__main-title {
+            margin-top: 90px;
+            margin-bottom: 95px;
             &--style {
                 font-size: 2.5em;
             }
@@ -160,6 +163,7 @@
         
         /**Gourmandises sucrées**/
         .part3_menu2 {
+            margin-bottom: 90px;
             &__l-bar {
                 width: 25%;
             }
@@ -191,6 +195,8 @@
 
         /**main title**/
         &__main-title {
+            margin-top: 110px;
+            margin-bottom: 115px;
             &--style {
                 font-size: 3.2em;
             }
@@ -226,6 +232,7 @@
         
         /**Gourmandises sucrées**/
         .part3_menu2 {
+            margin-bottom: 120px;
             &__l-bar {
                 width: 29%;
             }

@@ -11,64 +11,18 @@
 .compo_menu1 {
     color: $text-color-menu1;
 
-    & aside {
-        display: flex;
-        justify-content: center;
-        flex-flow: row wrap;
-    }
     & span {
         font-weight: bold;
-        float: right;
     }
     
-    /**icon, main title & prices**/
-    &__main-img {
+    /**main icon, main title**/
+    &__main-icon {
         width: 35%;
         margin-top: 45px;
     }
     &__main-title {
         margin-top: -0.1px;
-        text-align: center;
     }
-
-    /**Prélude**/
-    .part1_menu1 {
-        &__l-bar {
-            float: left;
-        }
-        &__txt {
-            @include parts_menu1_txt
-        }
-        &__r-bar {
-            float: right;
-        }
-    }
-
-    /**Point d'orgue**/
-    .part2_menu1 {
-        &__l-bar {
-            float: left;
-        }
-        &__txt {
-            @include parts_menu1_txt
-        }
-        &__r-bar {
-            float: right;
-        }
-    } 
-
-    /**Mouvement final**/
-    .part3_menu1 {
-        &__l-bar {
-            float: left;
-        }
-        &__txt {
-            @include parts_menu1_txt
-        }
-        &__r-bar {
-            float: right;
-        }
-    } 
 
     /**icon & title end**/
     .menu-end_menu1 {
@@ -108,7 +62,7 @@
                 width: 35%;
             }
             &__txt {
-                width: 24%;
+                width: 22%;
                 font-size: 25px;
             }
             &__r-bar {
@@ -123,7 +77,7 @@
                 width: 28%;
             }
             &__txt {
-                width: 41%;
+                width: 38%;
                 font-size: 25px;
             }
             &__r-bar {
@@ -138,7 +92,7 @@
                 width: 22%;
             }
             &__txt {
-                width: 52%;
+                width: 49%;
                 font-size: 25px;
             }
             &__r-bar {
@@ -260,7 +214,7 @@
         /**main title**/
         &__main-title {
             &--style {
-                font-size: 3.5em;
+                font-size: 4em;
             }
         }
 

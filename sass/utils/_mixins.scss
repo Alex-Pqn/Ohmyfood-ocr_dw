@@ -16,7 +16,7 @@
     }
 }
 
-/**Menus (1,2,3,4)**/
+/**Menus 1,2,3,4**/
 @mixin bloc_menu {
     box-shadow: 0px 0px 7px rgb(201, 193, 193);
     display: flex;
@@ -25,18 +25,10 @@
     margin-bottom: 100px;
 }
 
-/**Menu 2,3,4**/
-@mixin menu2_3_4-parts-txt {
+@mixin menu1_2_3_4-parts-txt {
     display: block;
     margin: auto;
     line-height: 1px;
-    text-align: center;
-}
-
-/**Menu 1**/
-@mixin parts_menu1_txt {
-    display: block;
-    margin: auto;
     text-align: center;
 }
 

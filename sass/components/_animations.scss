@@ -78,9 +78,28 @@
 .part1_menu4 aside p:after, .part2_menu4 aside p:after, .part3_menu4 aside p:after {
     content: '';
     position: absolute;
-    width: 0; height: 3px;
-    margin-top: 28px;
     transition: width .5s;
+}
+
+/**Menus (1,2,3,4) - Responsive 320px > 599px - Underline effect**/
+@media (max-width: 599px) {
+    .part1_menu1 aside p:after, .part2_menu1 aside p:after, .part3_menu1 aside p:after, 
+    .part1_menu2--color_txt aside p:after, .part2_menu2--color_txt aside p:after, .part3_menu2--color_txt aside p:after,
+    .part1_menu3 aside p:after, .part2_menu3 aside p:after, .part3_menu3 aside p:after,
+    .part1_menu4 aside p:after, .part2_menu4 aside p:after, .part3_menu4 aside p:after {
+        margin-top: 13px;
+        width: 0; height: 2px;
+    }
+}
+/**Menus (1,2,3,4) - Responsive 600px > + - Underline effect**/
+@media (min-width: 600px) {
+    .part1_menu1 aside p:after, .part2_menu1 aside p:after, .part3_menu1 aside p:after, 
+    .part1_menu2--color_txt aside p:after, .part2_menu2--color_txt aside p:after, .part3_menu2--color_txt aside p:after,
+    .part1_menu3 aside p:after, .part2_menu3 aside p:after, .part3_menu3 aside p:after,
+    .part1_menu4 aside p:after, .part2_menu4 aside p:after, .part3_menu4 aside p:after {
+        margin-top: 19px;
+        width: 0; height: 3px;
+    }
 }
 
 /**Menus 1 - Underline effect**/
