@@ -17,7 +17,6 @@
 
     /**Pour se mettre en appétit**/
     .part1_menu2 {
-
         & hr {
             background-color: $text-color-part1-menu2;
         }
@@ -29,7 +28,6 @@
     
     /**Plaisir des papilles**/
     .part2_menu2 {
-
         & hr {
             background-color: $text-color-part2-menu2;
         }
@@ -41,7 +39,6 @@
     
     /**Gourmandises sucrées**/
     .part3_menu2 {
-
         & hr {
             background-color: $text-color-part3-menu2;
         }
@@ -71,37 +68,37 @@
         &__main-title {
             margin-top: 45px;
             margin-bottom: 45px;
+
             &--style {
                 font-size: 1.8em;
+            }
+        }
+
+        /**All bars on parts**/
+        .part1_menu2, .part2_menu2, .part3_menu2 {
+            &__l-bar {
+                width: 18.5%;
+            }
+            &__r-bar {
+                width: 18.5%;
             }
         }
     
         /**Pour se mettre en appétit**/
         .part1_menu2 {
-            &__l-bar {
-                min-width: 18.5%;
-            }
             &__txt {
                 max-width: 58%;
                 font-size: 15px;
-            }
-            &__r-bar {
-                width: 18.5%;
             }
         }
         
         /**Plaisir des papilles**/
         .part2_menu2 {
             margin-top: 50px;
-            &__l-bar {
-                width: 18.5%;
-            }
+
             &__txt {
                 max-width: 44%;
                 font-size: 15px;
-            }
-            &__r-bar {
-                width: 18.5%;
             }
         }
         
@@ -109,15 +106,10 @@
         .part3_menu2 {
             margin-top: 50px;
             margin-bottom: 45px;
-            &__l-bar {
-                width: 18.5%;
-            }
+
             &__txt {
                 max-width: 53%;
                 font-size: 15px;
-            }
-            &__r-bar {
-                width: 18.5%;
             }
         }
     }
@@ -142,37 +134,37 @@
         &__main-title {
             margin-top: 75px;
             margin-bottom: 75px;
+
             &--style {
                 font-size: 2.5em;
             }
         }
     
-        /**Pour se mettre en appétit**/
-        .part1_menu2 {
+        /**All bars on parts**/
+        .part1_menu2, .part2_menu2, .part3_menu2 {
             &__l-bar {
                 width: 24%;
             }
+            &__r-bar {
+                width: 24%;
+            }
+        }
+
+        /**Pour se mettre en appétit**/
+        .part1_menu2 {
             &__txt {
                 max-width: 44%;
                 font-size: 20px;
-            }
-            &__r-bar {
-                width: 24%;
             }
         }
         
         /**Plaisir des papilles**/
         .part2_menu2 {
             margin-top: 75px;
-            &__l-bar {
-                width: 24%;
-            }
+
             &__txt {
                 max-width: 33%;
                 font-size: 20px;
-            }
-            &__r-bar {
-                width: 24%;
             }
         }
         
@@ -180,15 +172,10 @@
         .part3_menu2 {
             margin-top: 75px;
             margin-bottom: 65px;
-            &__l-bar {
-                width: 24%;
-            }
+
             &__txt {
                 max-width: 40%;
                 font-size: 20px;
-            }
-            &__r-bar {
-                width: 24%;
             }
         }
     }
@@ -213,37 +200,37 @@
         &__main-title {
             margin-top: 115px;
             margin-bottom: 115px;
+
             &--style {
                 font-size: 3.2em;
+            }
+        }
+
+        /**All bars on parts**/
+        .part1_menu2, .part2_menu2, .part3_menu2 {
+            &__l-bar {
+                width: 25%;
+            }
+            &__r-bar {
+                width: 25%;
             }
         }
     
         /**Pour se mettre en appétit**/
         .part1_menu2 {
-            &__l-bar {
-                width: 25%;
-            }
             &__txt {
                 max-width: 42%;
                 font-size: 26px;
-            }
-            &__r-bar {
-                width: 25%;
             }
         }
         
         /**Plaisir des papilles**/
         .part2_menu2 {
             margin-top: 85px;
-            &__l-bar {
-                width: 25%;
-            }
+
             &__txt {
                 max-width: 31%;
                 font-size: 26px;
-            }
-            &__r-bar {
-                width: 25%;
             }
         }
         
@@ -251,15 +238,10 @@
         .part3_menu2 {
             margin-top: 85px;
             margin-bottom: 120px;
-            &__l-bar {
-                width: 25%;
-            }
+            
             &__txt {
                 max-width: 38%;
                 font-size: 26px;
-            }
-            &__r-bar {
-                width: 25%;
             }
         }
     }

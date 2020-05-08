@@ -16,28 +16,30 @@
         }
     }
 
-        .part1_menu4__l-bar, .part2_menu4__l-bar, .part3_menu4__l-bar {
+    /**All bars on parts**/
+    .part1_menu4, .part2_menu4, .part3_menu4 {
+        &__l-bar {
             background: linear-gradient(to right, $bar-color-menu4_deg1 0%,$bar-color-menu4_deg2 41%,$bar-color-menu4_deg3 70%,$bar-color-menu4_deg4 100%);
         }
-
-        .part1_menu4__r-bar, .part2_menu4__r-bar, .part3_menu4__r-bar {
+        &__r-bar {
             background: linear-gradient(to left, $bar-color-menu4_deg1 0%,$bar-color-menu4_deg2 41%,$bar-color-menu4_deg3 70%,$bar-color-menu4_deg4 100%);
         }
+    }
 
-        /**Esquisse**/
-        .part1_menu4 {
-            margin-top: 65px;
-        }
-    
-        /**Oeuvre de maître**/
-        .part2_menu4 {
-            margin-top: 85px;
-        }
-    
-        /**Au sommet de l'art**/
-        .part3_menu4 {
-            margin-top: 85px;
-        }
+    /**Esquisse**/
+    .part1_menu4 {
+        margin-top: 65px;
+    }
+
+    /**Oeuvre de maître**/
+    .part2_menu4 {
+        margin-top: 85px;
+    }
+
+    /**Au sommet de l'art**/
+    .part3_menu4 {
+        margin-top: 85px;
+    }
 }
 
 
@@ -47,6 +49,7 @@
 
     .bloc_menu4 {
         width: 95%;
+
         & p {
             font-size: 21px;
         }
@@ -62,51 +65,45 @@
         &__main-title {
             margin-top: 45px;
             margin-bottom: 45px;
+
             &--style {
                 font-size: 2.5em;
+            }
+        }
+
+        /**All bars on parts**/
+        .part1_menu4, .part2_menu4, .part3_menu4 {
+            &__l-bar {
+                width: 19%;
+            }
+            &__r-bar {
+                width: 19%;
             }
         }
     
         /**Esquisse**/
         .part1_menu4 {
-            &__l-bar {
-                width: 19%;
-            }
             &__txt {
                 max-width: 26%;
                 font-size: 25px;
-            }
-            &__r-bar {
-                width: 19%;
             }
         }
         
         /**Oeuvre de maître**/
         .part2_menu4 {
-            &__l-bar {
-                width: 19%;
-            }
             &__txt {
                 max-width: 49%;
                 font-size: 25px;
-            }
-            &__r-bar {
-                width: 19%;
             }
         }
         
         /**Au sommet de l'art**/
         .part3_menu4 {
             margin-bottom: 45px;
-            &__l-bar {
-                width: 19%;
-            }
+
             &__txt {
                 max-width: 54%;
                 font-size: 25px;
-            }
-            &__r-bar {
-                width: 19%;
             }
         }
     }
@@ -119,6 +116,7 @@
 
     .bloc_menu4 {
         width: 90%;
+
         & p {
             font-size: 23px;
         }
@@ -134,51 +132,45 @@
         &__main-title {
             margin-top: 75px;
             margin-bottom: 75px;
+
             &--style {
                 font-size: 3em;
+            }
+        }
+
+        /**All bars on parts**/
+        .part1_menu4, .part2_menu4, .part3_menu4 {
+            &__l-bar {
+                width: 30%;
+            }
+            &__r-bar {
+                width: 30%;
             }
         }
     
         /**Esquisse**/
         .part1_menu4 {
-            &__l-bar {
-                width: 30%;
-            }
             &__txt {
                 max-width: 14%;
                 font-size: 26px;
-            }
-            &__r-bar {
-                width: 28.5%;
             }
         }
         
         /**Oeuvre de maître**/
         .part2_menu4 {
-            &__l-bar {
-                width: 30%;
-            }
             &__txt {
                 max-width: 29%;
                 font-size: 26px;
-            }
-            &__r-bar {
-                width: 28.5%;
             }
         }
         
         /**Au sommet de l'art**/
         .part3_menu4 {
             margin-bottom: 65px;
-            &__l-bar {
-                width: 30%;
-            }
+
             &__txt {
                 max-width: 32%;
                 font-size: 26px;
-            }
-            &__r-bar {
-                width: 28.5%;
             }
         }
     }
@@ -191,6 +183,7 @@
 
     .bloc_menu4 {
         width: 900px;
+
         & p {
             font-size: 28px;
         }
@@ -210,47 +203,39 @@
                 font-size: 4em;
             }
         }
-    
-        /**Esquisse**/
-        .part1_menu4 {
+
+        /**All bars on parts**/
+        .part1_menu4, .part2_menu4, .part3_menu4 {
             &__l-bar {
-                width: 31%;
-            }
-            &__txt {
-                max-width: 14%;
-                font-size: 35px;
+                width: 30%;
             }
             &__r-bar {
                 width: 30%;
             }
         }
+    
+        /**Esquisse**/
+        .part1_menu4 {
+            &__txt {
+                max-width: 14%;
+                font-size: 35px;
+            }
+        }
         
         /**Oeuvre de maître**/
         .part2_menu4 {
-            &__l-bar {
-                width: 31%;
-            }
             &__txt {
                 max-width: 28%;
                 font-size: 35px;
-            }
-            &__r-bar {
-                width: 30%;
             }
         }
         
         /**Au sommet de l'art**/
         .part3_menu4 {
             margin-bottom: 120px;
-            &__l-bar {
-                width: 31%;
-            }
             &__txt {
                 max-width: 32%;
                 font-size: 35px;
-            }
-            &__r-bar {
-                width: 30%;
             }
         }
     }

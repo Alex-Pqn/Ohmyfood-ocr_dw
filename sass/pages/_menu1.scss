@@ -26,13 +26,18 @@
         margin-top: -.1px;
     }
 
-    /**icon & title end**/
+    /**End icon & end title**/
     .menu-end_menu1 {
         display: flex;
         justify-content: center;
         flex-flow: row wrap;
         align-items: center;
     }
+}
+
+/**Main icon & end icon**/
+.fa-itunes-note {
+    color: #F16464;
 }
 
 
@@ -53,6 +58,7 @@
         /**Main icon & main title**/
         &__main-title {
             margin-top: -20px;
+
             &--style {
                 font-size: 2.5em;
             }
@@ -61,54 +67,50 @@
             font-size: 4em;
         }
 
-        /**Prélude**/
-        .part1_menu1 {
-            margin-top: 40px;
+        /**All bars on parts**/
+        .part1_menu1, .part2_menu1, .part3_menu1 {
             &__l-bar {
                 width: 21%;
-            }
-            &__txt {
-                max-width: 22%;
-                font-size: 25px;
             }
             &__r-bar {
                 width: 21%;
             }
         }
 
+        /**Prélude**/
+        .part1_menu1 {
+            margin-top: 40px;
+
+            &__txt {
+                max-width: 22%;
+                font-size: 25px;
+            }
+        }
+
         /**Point d'orgue**/
         .part2_menu1 {
             margin-top: 55px;
-            &__l-bar {
-                width: 21%;
-            }
+
             &__txt {
                 max-width: 39%;
                 font-size: 25px;
-            }
-            &__r-bar {
-                width: 21%;
             }
         } 
 
         /**Mouvement final**/
         .part3_menu1 {
             margin-top: 55px;
-            &__l-bar {
-                width: 21%;
-            }
+
             &__txt {
                 max-width: 50%;
                 font-size: 25px;
             }
-            &__r-bar {
-                width: 21%;
-            }
         } 
 
-        /**icon & title end**/
+        /**End icon & end title**/
         .menu-end_menu1 {
             margin-top: 20px;
+
             &__txt {
                 font-size: 32px;
             }
@@ -138,6 +140,7 @@
         /**Main icon & main title**/
         &__main-title {
             margin-top: -20px;
+
             &--style {
                 font-size: 3em;
             }
@@ -146,54 +149,50 @@
             font-size: 5em;
         }
 
-        /**Prélude**/
-        .part1_menu1 {
-            margin-top: 55px;
+        /**All bars on parts**/
+        .part1_menu1, .part2_menu1, .part3_menu1 {
             &__l-bar {
                 width: 27%;
             }
+            &__r-bar {
+                width: 27%;
+            }
+        }
+
+        /**Prélude**/
+        .part1_menu1 {
+            margin-top: 55px;
+
             &__txt {
                 max-width: 16%;
                 font-size: 31px;
-            }
-            &__r-bar {
-                width: 27%;
             }
         }
 
         /**Point d'orgue**/
         .part2_menu1 {
             margin-top: 85px;
-            &__l-bar {
-                width: 27%;
-            }
+
             &__txt {
                 max-width: 28%;
                 font-size: 31px;
-            }
-            &__r-bar {
-                width: 27%;
             }
         }
 
         /**Mouvement final**/
         .part3_menu1 {
             margin-top: 85px;
-            &__l-bar {
-                width: 27%;
-            }
+
             &__txt {
                 max-width: 36%;
                 font-size: 31px;
             }
-            &__r-bar {
-                width: 27%;
-            }
         } 
 
-        /**icon & title end**/
+        /**End icon & end title**/
         .menu-end_menu1 {
             margin-top: 35px;
+
             &__txt {
                 font-size: 37px;
             }
@@ -230,54 +229,50 @@
             font-size: 7em;
         }
 
-        /**Prélude**/
-        .part1_menu1 {
-            margin-top: 65px;
+        /**All bars on parts**/
+        .part1_menu1, .part2_menu1, .part3_menu1 {
             &__l-bar {
                 width: 30%;
-            }
-            &__txt {
-                max-width: 15%;
-                font-size: 40px;
             }
             &__r-bar {
                 width: 30%;
             }
         }
 
+        /**Prélude**/
+        .part1_menu1 {
+            margin-top: 65px;
+
+            &__txt {
+                max-width: 15%;
+                font-size: 40px;
+            }
+        }
+
         /**Point d'orgue**/
         .part2_menu1 {
             margin-top: 85px;
-            &__l-bar {
-                width: 30%;
-            }
+
             &__txt {
                 max-width: 26%;
                 font-size: 40px;
-            }
-            &__r-bar {
-                width: 30%;
             }
         } 
 
         /**Mouvement final**/
         .part3_menu1 {
             margin-top: 85px;
-            &__l-bar {
-                width: 30%;
-            }
+
             &__txt {
                 max-width: 34%;
                 font-size: 40px;
             }
-            &__r-bar {
-                width: 30%;
-            }
         } 
 
-        /**icon & title end**/
+        /**End icon & end title**/
         .menu-end_menu1 {
             margin-top: 65px;
+            
             &__txt {
                 font-size: 40px;
             }
