@@ -8,13 +8,21 @@
 .compo_menu4 {
     color: $text-color-menu4;
 
-    /**main title & prices**/
+    /**main title**/
     &__main-title {
         &--style {
             background: -webkit-gradient(linear, left top, right bottom, from($title-color-menu4_1), to($title-color-menu4_2));
             @include degraded-text;
         }
     }
+
+        .part1_menu4__l-bar, .part2_menu4__l-bar, .part3_menu4__l-bar {
+            background: linear-gradient(to right, $bar-color-menu4_deg1 0%,$bar-color-menu4_deg2 41%,$bar-color-menu4_deg3 70%,$bar-color-menu4_deg4 100%);
+        }
+
+        .part1_menu4__r-bar, .part2_menu4__r-bar, .part3_menu4__r-bar {
+            background: linear-gradient(to left, $bar-color-menu4_deg1 0%,$bar-color-menu4_deg2 41%,$bar-color-menu4_deg3 70%,$bar-color-menu4_deg4 100%);
+        }
 
         /**Esquisse**/
         .part1_menu4 {
@@ -52,8 +60,8 @@
 
         /**main title**/
         &__main-title {
-            margin-top: 60px;
-            margin-bottom: 65px;
+            margin-top: 45px;
+            margin-bottom: 45px;
             &--style {
                 font-size: 2.5em;
             }
@@ -62,43 +70,43 @@
         /**Esquisse**/
         .part1_menu4 {
             &__l-bar {
-                width: 32%;
+                width: 19%;
             }
             &__txt {
-                width: 24%;
+                max-width: 26%;
                 font-size: 25px;
             }
             &__r-bar {
-                width: 31%;
+                width: 19%;
             }
         }
         
         /**Oeuvre de maître**/
         .part2_menu4 {
             &__l-bar {
-                width: 23%;
+                width: 19%;
             }
             &__txt {
-                width: 48%;
+                max-width: 49%;
                 font-size: 25px;
             }
             &__r-bar {
-                width: 22%;
+                width: 19%;
             }
         }
         
         /**Au sommet de l'art**/
         .part3_menu4 {
-            margin-bottom: 60px;
+            margin-bottom: 45px;
             &__l-bar {
-                width: 21%;
+                width: 19%;
             }
             &__txt {
-                width: 53%;
+                max-width: 54%;
                 font-size: 25px;
             }
             &__r-bar {
-                width: 20%;
+                width: 19%;
             }
         }
     }
@@ -124,8 +132,8 @@
 
         /**main title**/
         &__main-title {
-            margin-top: 90px;
-            margin-bottom: 95px;
+            margin-top: 75px;
+            margin-bottom: 75px;
             &--style {
                 font-size: 3em;
             }
@@ -137,7 +145,7 @@
                 width: 30%;
             }
             &__txt {
-                width: 14%;
+                max-width: 14%;
                 font-size: 26px;
             }
             &__r-bar {
@@ -151,7 +159,7 @@
                 width: 30%;
             }
             &__txt {
-                width: 29%;
+                max-width: 29%;
                 font-size: 26px;
             }
             &__r-bar {
@@ -161,12 +169,12 @@
         
         /**Au sommet de l'art**/
         .part3_menu4 {
-            margin-bottom: 90px;
+            margin-bottom: 65px;
             &__l-bar {
                 width: 30%;
             }
             &__txt {
-                width: 32%;
+                max-width: 32%;
                 font-size: 26px;
             }
             &__r-bar {
@@ -209,7 +217,7 @@
                 width: 31%;
             }
             &__txt {
-                width: 14%;
+                max-width: 14%;
                 font-size: 35px;
             }
             &__r-bar {
@@ -223,7 +231,7 @@
                 width: 31%;
             }
             &__txt {
-                width: 28%;
+                max-width: 28%;
                 font-size: 35px;
             }
             &__r-bar {
@@ -238,7 +246,7 @@
                 width: 31%;
             }
             &__txt {
-                width: 32%;
+                max-width: 32%;
                 font-size: 35px;
             }
             &__r-bar {

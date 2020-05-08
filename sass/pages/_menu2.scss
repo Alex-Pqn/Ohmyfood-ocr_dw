@@ -17,7 +17,11 @@
 
     /**Pour se mettre en appétit**/
     .part1_menu2 {
-        margin-top: 65px;
+
+        & hr {
+            background-color: $text-color-part1-menu2;
+        }
+
         &--color_txt {
             color: $text-color-part1-menu2;
         }
@@ -25,7 +29,11 @@
     
     /**Plaisir des papilles**/
     .part2_menu2 {
-        margin-top: 85px;
+
+        & hr {
+            background-color: $text-color-part2-menu2;
+        }
+
         &--color_txt {
             color: $text-color-part2-menu2;
         }
@@ -33,7 +41,11 @@
     
     /**Gourmandises sucrées**/
     .part3_menu2 {
-        margin-top: 85px;
+
+        & hr {
+            background-color: $text-color-part3-menu2;
+        }
+
         &--color_txt {
             color: $text-color-part3-menu2;
         }
@@ -57,8 +69,8 @@
 
         /**main title**/
         &__main-title {
-            margin-top: 60px;
-            margin-bottom: 65px;
+            margin-top: 45px;
+            margin-bottom: 45px;
             &--style {
                 font-size: 1.8em;
             }
@@ -67,10 +79,10 @@
         /**Pour se mettre en appétit**/
         .part1_menu2 {
             &__l-bar {
-                width: 18.5%;
+                min-width: 18.5%;
             }
             &__txt {
-                width: 58%;
+                max-width: 58%;
                 font-size: 15px;
             }
             &__r-bar {
@@ -80,30 +92,32 @@
         
         /**Plaisir des papilles**/
         .part2_menu2 {
+            margin-top: 50px;
             &__l-bar {
-                width: 26%;
+                width: 18.5%;
             }
             &__txt {
-                width: 44%;
+                max-width: 44%;
                 font-size: 15px;
             }
             &__r-bar {
-                width: 26%;
+                width: 18.5%;
             }
         }
         
         /**Gourmandises sucrées**/
         .part3_menu2 {
-            margin-bottom: 60px;
+            margin-top: 50px;
+            margin-bottom: 45px;
             &__l-bar {
-                width: 21.5%;
+                width: 18.5%;
             }
             &__txt {
-                width: 53%;
+                max-width: 53%;
                 font-size: 15px;
             }
             &__r-bar {
-                width: 21.5%;
+                width: 18.5%;
             }
         }
     }
@@ -126,8 +140,8 @@
         
         /**main title**/
         &__main-title {
-            margin-top: 90px;
-            margin-bottom: 95px;
+            margin-top: 75px;
+            margin-bottom: 75px;
             &--style {
                 font-size: 2.5em;
             }
@@ -136,43 +150,45 @@
         /**Pour se mettre en appétit**/
         .part1_menu2 {
             &__l-bar {
-                width: 28%;
+                width: 24%;
             }
             &__txt {
-                width: 44%;
+                max-width: 44%;
                 font-size: 20px;
             }
             &__r-bar {
-                width: 28%;
+                width: 24%;
             }
         }
         
         /**Plaisir des papilles**/
         .part2_menu2 {
+            margin-top: 75px;
             &__l-bar {
-                width: 25%;
+                width: 24%;
             }
             &__txt {
-                width: 34%;
+                max-width: 33%;
                 font-size: 20px;
             }
             &__r-bar {
-                width: 25%;
+                width: 24%;
             }
         }
         
         /**Gourmandises sucrées**/
         .part3_menu2 {
-            margin-bottom: 90px;
+            margin-top: 75px;
+            margin-bottom: 65px;
             &__l-bar {
-                width: 25%;
+                width: 24%;
             }
             &__txt {
-                width: 40%;
+                max-width: 40%;
                 font-size: 20px;
             }
             &__r-bar {
-                width: 25%;
+                width: 24%;
             }
         }
     }
@@ -195,7 +211,7 @@
 
         /**main title**/
         &__main-title {
-            margin-top: 110px;
+            margin-top: 115px;
             margin-bottom: 115px;
             &--style {
                 font-size: 3.2em;
@@ -205,43 +221,45 @@
         /**Pour se mettre en appétit**/
         .part1_menu2 {
             &__l-bar {
-                width: 29%;
+                width: 25%;
             }
             &__txt {
-                width: 42%;
+                max-width: 42%;
                 font-size: 26px;
             }
             &__r-bar {
-                width: 29%;
+                width: 25%;
             }
         }
         
         /**Plaisir des papilles**/
         .part2_menu2 {
+            margin-top: 85px;
             &__l-bar {
-                width: 29%;
+                width: 25%;
             }
             &__txt {
-                width: 32%;
+                max-width: 31%;
                 font-size: 26px;
             }
             &__r-bar {
-                width: 29%;
+                width: 25%;
             }
         }
         
         /**Gourmandises sucrées**/
         .part3_menu2 {
+            margin-top: 85px;
             margin-bottom: 120px;
             &__l-bar {
-                width: 29%;
+                width: 25%;
             }
             &__txt {
-                width: 38%;
+                max-width: 38%;
                 font-size: 26px;
             }
             &__r-bar {
-                width: 29%;
+                width: 25%;
             }
         }
     }

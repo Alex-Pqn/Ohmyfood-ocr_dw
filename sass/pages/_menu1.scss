@@ -14,14 +14,16 @@
     & span {
         font-weight: bold;
     }
+    & hr {
+        background-color: $text-color-menu1;
+    }
     
     /**main icon, main title**/
     &__main-icon {
-        width: 35%;
         margin-top: 45px;
     }
     &__main-title {
-        margin-top: -0.1px;
+        margin-top: -.1px;
     }
 
     /**icon & title end**/
@@ -48,25 +50,29 @@
     .compo_menu1 {
         width: 97%;
 
-        /**main title**/
+        /**Main icon & main title**/
         &__main-title {
+            margin-top: -20px;
             &--style {
                 font-size: 2.5em;
             }
         }
+        &__main-icon {
+            font-size: 4em;
+        }
 
         /**Prélude**/
         .part1_menu1 {
-            margin-top: 50px;
+            margin-top: 40px;
             &__l-bar {
-                width: 35%;
+                width: 21%;
             }
             &__txt {
-                width: 22%;
+                max-width: 22%;
                 font-size: 25px;
             }
             &__r-bar {
-                width: 35%;
+                width: 21%;
             }
         }
 
@@ -74,14 +80,14 @@
         .part2_menu1 {
             margin-top: 55px;
             &__l-bar {
-                width: 28%;
+                width: 21%;
             }
             &__txt {
-                width: 38%;
+                max-width: 39%;
                 font-size: 25px;
             }
             &__r-bar {
-                width: 28%;
+                width: 21%;
             }
         } 
 
@@ -89,14 +95,14 @@
         .part3_menu1 {
             margin-top: 55px;
             &__l-bar {
-                width: 22%;
+                width: 21%;
             }
             &__txt {
-                width: 49%;
+                max-width: 50%;
                 font-size: 25px;
             }
             &__r-bar {
-                width: 22%;
+                width: 21%;
             }
         } 
 
@@ -107,9 +113,8 @@
                 font-size: 32px;
             }
             &__icon {
-                width: 18%;
-                height: 75px;
-                margin-right: -3px;
+                font-size: 2.5em;
+                margin-right: 12px;
             }
         }
     }
@@ -130,25 +135,29 @@
     .compo_menu1 {
         width: 95%;
 
-        /**main title**/
+        /**Main icon & main title**/
         &__main-title {
+            margin-top: -20px;
             &--style {
                 font-size: 3em;
             }
         }
+        &__main-icon {
+            font-size: 5em;
+        }
 
         /**Prélude**/
         .part1_menu1 {
-            margin-top: 65px;
+            margin-top: 55px;
             &__l-bar {
-                width: 30%;
+                width: 27%;
             }
             &__txt {
-                width: 15%;
+                max-width: 16%;
                 font-size: 31px;
             }
             &__r-bar {
-                width: 30%;
+                width: 27%;
             }
         }
 
@@ -156,14 +165,14 @@
         .part2_menu1 {
             margin-top: 85px;
             &__l-bar {
-                width: 30%;
+                width: 27%;
             }
             &__txt {
-                width: 28%;
+                max-width: 28%;
                 font-size: 31px;
             }
             &__r-bar {
-                width: 30%;
+                width: 27%;
             }
         }
 
@@ -171,14 +180,14 @@
         .part3_menu1 {
             margin-top: 85px;
             &__l-bar {
-                width: 30%;
+                width: 27%;
             }
             &__txt {
-                width: 36%;
+                max-width: 36%;
                 font-size: 31px;
             }
             &__r-bar {
-                width: 30%;
+                width: 27%;
             }
         } 
 
@@ -189,8 +198,8 @@
                 font-size: 37px;
             }
             &__icon {
-                width: 12%;
-                height: 80px;
+                font-size: 3em;
+                margin-right: 15px;
             }
         }
     }
@@ -211,11 +220,14 @@
     .compo_menu1 {
         width: 700px;
 
-        /**main title**/
+        /**Main icon & main title**/
         &__main-title {
             &--style {
                 font-size: 4em;
             }
+        }
+        &__main-icon {
+            font-size: 7em;
         }
 
         /**Prélude**/
@@ -225,7 +237,7 @@
                 width: 30%;
             }
             &__txt {
-                width: 15%;
+                max-width: 15%;
                 font-size: 40px;
             }
             &__r-bar {
@@ -240,7 +252,7 @@
                 width: 30%;
             }
             &__txt {
-                width: 26%;
+                max-width: 26%;
                 font-size: 40px;
             }
             &__r-bar {
@@ -255,7 +267,7 @@
                 width: 30%;
             }
             &__txt {
-                width: 34%;
+                max-width: 34%;
                 font-size: 40px;
             }
             &__r-bar {
@@ -270,7 +282,8 @@
                 font-size: 40px;
             }
             &__icon {
-                width: 12%;
+                font-size: 4em;
+                margin-right: 20px;
             }
         }
     }

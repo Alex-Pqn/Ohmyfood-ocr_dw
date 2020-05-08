@@ -20,16 +20,28 @@
     /**Pour bien commencer**/
     .part1_menu3 {
         margin-top: 65px;
+
+        & hr {
+            background-color: $bar-color-menu3_part1;
+        }
     }
 
     /**Pour bien continuer**/
     .part2_menu3 {
         margin-top: 85px;
+
+        & hr {
+            background-color: $bar-color-menu3_part2;
+        }
     }
 
     /**Pour bien terminer**/
     .part3_menu3 {
         margin-top: 85px;
+
+        & hr {
+            background-color: $bar-color-menu3_part3;
+        }
     }
 }
 
@@ -53,8 +65,8 @@
 
         /**main title**/
         &__main-title {
-            margin-top: 60px;
-            margin-bottom: 65px;
+            margin-top: 45px;
+            margin-bottom: 45px;
             &--style {
                 font-size: 2.5em;
             }
@@ -63,43 +75,43 @@
         /**Pour bien commencer**/
         .part1_menu3 {
             &__l-bar {
-                width: 19%;
+                width: 17%;
             }
             &__txt {
-                width: 58%;
+                max-width: 58%;
                 font-size: 24px;
             }
             &__r-bar {
-                width: 19%;
+                width: 17%;
             }
         }
         
         /**Pour bien continuer**/
         .part2_menu3 {
             &__l-bar {
-                width: 22%;
+                width: 17%;
             }
             &__txt {
-                width: 54%;
+                max-width: 54%;
                 font-size: 24px;
             }
             &__r-bar {
-                width: 22%;
+                width: 17%;
             }
         }
         
         /**Pour bien terminer**/
         .part3_menu3 {
-            margin-bottom: 60px;
+            margin-bottom: 45px;
             &__l-bar {
-                width: 22%;
+                width: 17%;
             }
             &__txt {
-                width: 52%;
+                max-width: 52%;
                 font-size: 24px;
             }
             &__r-bar {
-                width: 22%;
+                width: 17%;
             }
         }
     }
@@ -125,8 +137,8 @@
 
         /**main title**/
         &__main-title {
-            margin-top: 90px;
-            margin-bottom: 95px;
+            margin-top: 75px;
+            margin-bottom: 75px;
             &--style {
                 font-size: 3em;
             }
@@ -135,43 +147,43 @@
         /**Pour bien commencer**/
         .part1_menu3 {
             &__l-bar {
-                width: 28%;
+                width: 25%;
             }
             &__txt {
-                width: 41%;
+                max-width: 41%;
                 font-size: 29px;
             }
             &__r-bar {
-                width: 28%;
+                width: 25%;
             }
         }
         
         /**Pour bien continuer**/
         .part2_menu3 {
             &__l-bar {
-                width: 28%;
+                width: 25%;
             }
             &__txt {
-                width: 38%;
+                max-width: 38%;
                 font-size: 29px;
             }
             &__r-bar {
-                width: 28%;
+                width: 25%;
             }
         }
         
         /**Pour bien terminer**/
         .part3_menu3 {
-            margin-bottom: 90px;
+            margin-bottom: 65px;
             &__l-bar {
-                width: 28%;
+                width: 25%;
             }
             &__txt {
-                width: 36%;
+                max-width: 36%;
                 font-size: 29px;
             }
             &__r-bar {
-                width: 28%;
+                width: 25%;
             }
         }
     }
@@ -197,7 +209,7 @@
 
         /**main title**/
         &__main-title {
-            margin-top: 110px;
+            margin-top: 115px;
             margin-bottom: 115px;
             &--style {
                 font-size: 4em;
@@ -210,7 +222,7 @@
                 width: 28%;
             }
             &__txt {
-                width: 36%;
+                max-width: 36%;
                 font-size: 35px;
             }
             &__r-bar {
@@ -224,7 +236,7 @@
                 width: 28%;
             }
             &__txt {
-                width: 33%;
+                max-width: 33%;
                 font-size: 35px;
             }
             &__r-bar {
@@ -239,7 +251,7 @@
                 width: 28%;
             }
             &__txt {
-                width: 32%;
+                max-width: 32%;
                 font-size: 35px;
             }
             &__r-bar {
