@@ -5,117 +5,67 @@
             <link rel="stylesheet" href="public/css/prefixed/style.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="theme-color" content="#5DC8A8">
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-            <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;500&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap" rel="stylesheet">
-            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" crossorigin="anonymous"/>
+            
 
             <link rel="icon" href="public/img/favicon.png">
-            <meta name="Eden Island" content="Serveur Arma 3 Life Français - Eden Island">
-            <title>Eden Island</title>
+            <meta name="Accueil Ohmyfood" content="Site répertoriant les menus des plus grands restaurants new-yorkais.">
+            <title>Accueil | Ohmyfood</title>
         </head>
         <body>
             <!--Header-->
             <header class="header header--color">
-                <div class="header__title">
-                    <img class="header__title__icon-img" src="public/img/favicon.png" alt="Site icon">
-                    <h1 class="js-anim">
-                        <p class="header__title__text"><span class="js-letters">Eden&nbsp</span></p>
-                    </h1>
-                    <h1 class="js-anim2">
-                        <p class="header__title__text"><span class="js-letters2">Island</span></p>
-                    </h1>
-                </div>
-                <div class="header__subtitles">
-                    <h3 class="header__subtitles__home"><a href="">Accueil</a></h3>
-                    <h3 class="header__subtitles__joinus"><a href="">Nous rejoindre</a></h3>
-                    <h3 class="header__subtitles__forum"><a href="">Forum</a></h3>
-                    <h3 class="header__subtitles__faq"><a href="">F.A.Q</a></h3>
-                    <h3 class="header__subtitles__textend"><a href="">Intranet</a></h3>
-                </div>
+                <h1 class="header__txt header__txt--style">ohmyfood</h1>
             </header>
 
-            <!--Main part-->
-            <section class="main-part">
-                <img class="main-part__img" src="public/img/img1.jpg" alt="main background presentation">
-                <a class="main-part__bloc-text" href="#section2">
-                    <p class="main-part__text">DÉCOUVRIR L'ÎLE !</p>
-                </a>
-            </section>
+            <!--Home menus-->
+            <div class="container-home-menus">
+                <div class="home-menus">
 
-            <!--Other parts-->
-            <div class="parts">
-                <article class="parts__part1">
-                    <h2 id="section2" class="part1__text">L'île de Saint-Barthélémy (vie civil, images x3)</h2>
-                    <div class="parts__part1__imgs1">
-                        <img class="parts__part1__imgs1__img" src="public/img/img4.jpg" alt="">
-                    </div>
-                    <div class="parts__part1__imgs2">
-                        <img class="parts__part1__imgs2__img" src="public/img/img2.png" alt="">
-                        <img class="parts__part1__imgs2__img" src="public/img/img3.png" alt="">
-                    </div>
-                </article>
+                    <!--Home menu 1 -->
+                    <article class="home-menus__menu1">
+                        <a href="public/html/menu1.html">
+                            <i class="fab fa-itunes-note home-menus__menu1__main-icon"></i>
+                            <h2 class="home-menus__menu1--style_title">La note enchantée</h2>
+                            <p class="home-menus__menu1--style_subtitle">MENU</p>
+                        </a>
+                    </article>
 
-                <article class="parts__part2">
-                    <h2 class="part2__text">Vie mafieuse x2</h2>
-                    <div class="parts__part2__imgs">
-                        <img class="parts__part2__imgs__img" src="public/img/img2.png" alt="">
-                        <img class="parts__part2__imgs__img" src="public/img/img3.png" alt="">
+                    <!--Home menu 2 -->
+                    <article class="home-menus__menu2">
+                        <a href="public/html/menu2.html">
+                            <h2 class="home-menus__menu2--style_title">Le chic à la française</h2>
+                            <p class="home-menus__menu2--style_subtitle">Menu</p>
+                        </a>
+                    </article>
 
-                    </div>
-                </article>
+                    <!--Home menu 3 -->
+                    <article class="home-menus__menu3">
+                        <a href="public/html/menu3.html">
+                            <h2 class="home-menus__menu3--style_title">Le délice des papilles</h2>
+                            <p class="home-menus__menu3--style_subtitle">Menu</p>
+                        </a>
+                    </article>
 
-
-                <article class="parts__part3">
-                    <h2 class="part3__text">Pompiers x3</h2>
-                    <div class="parts__part3__imgs">
-                        <img class="parts__part3__imgs__img" src="public/img/img2.png" alt="">
-                        <img class="parts__part3__imgs__img" src="public/img/img3.png" alt="">
-                        <img class="parts__part3__imgs__img" src="public/img/img3.png" alt="">
-                    </div>
-                </article>
-
-                <article class="parts__part4">
-                    <h2 class="part4__text">Gendarmerie x3</h2>
-                    <div class="parts__part4__imgs">
-                        <img class="parts__part4__imgs__img" src="public/img/img2.png" alt="">
-                        <img class="parts__part4__imgs__img" src="public/img/img3.png" alt="">
-                        <img class="parts__part4__imgs__img" src="public/img/img3.png" alt="">
-                    </div>
-                </article>
-
-                <article class="parts__part5">
-                    <h2 class="part5__text">DIR / SECU / DP / TAXI 4x1</h2>
-                    <div class="parts__part5__imgs">
-                        <div class="parts__part5__imgs1">
-                            <img class="parts__part5__imgs1__img" src="public/img/img2.png" alt="">
-                            <img class="parts__part5__imgs1__img" src="public/img/img3.png" alt="">
-                        </div>
-                        <div class="parts__part5__imgs2">
-                            <img class="parts__part5__imgs2__img" src="public/img/img3.png" alt="">
-                            <img class="parts__part5__imgs2__img" src="public/img/img3.png" alt="">
-                        </div>
-                    </div>
-                </article>
+                    <!--Home menu 4 -->
+                    <article class="home-menus__menu4">
+                        <a href="public/html/menu4.html">
+                            <h2 class="home-menus__menu4--style_title">La palette du goût</h2>
+                            <p class="home-menus__menu4--style_subtitle">Menu</p>
+                        </a>
+                    </article>
+                </div>
             </div>
 
+            <!--Btn soon-->
+            <article class="btn-soon">
+                <h3 class="btn-soon--color btn-soon__txt btn-soon__txt--style">Prochainement<span class="btn-soon_anim-one">.</span><span class="btn-soon_anim-two">.</span><span class="btn-soon_anim-three">.</span></h3>
+            </article>
+
             <!--Footer-->
-            <img class="footer-img" src="public/img/footer.png" alt="background separator footer">
             <footer class="footer footer--color">
-                <div class="footer__first-container">
-                    <p class="footer__first-container__credits">PAR <a class="footer--text-decoration" href="https://twitter.com/Sokaaaa_" target=_blank>SOKA</a> – SERVEUR ARMA 3 ROLEPLAY</p>
-                    <a class="footer__first-container__mentions footer--text-decoration" href="" target=_blank>MENTIONS LÉGALES</a>
-                </div>
-                <div class="footer__second-container">
-                    <p class="footer__second-container__copyrights">© 2020 Eden Island – TOUS DROITS RÉSERVÉS</p>
-                </div>
-                <div class="footer__third-container">
-                    <p class="footer__third-container__bohemia footer__third-container__bohemia--style">NON AFFILIÉ À BOHEMIA INTERACTIVE</p>
-                </div>
+                <a class="footer__mentions footer__mentions--style" href="public/html/mentions.html" target=_blank>Mentions légales</a>
+                <a class="footer__contact footer__contact--style" href="mailto:ohmyfood.contact@example.com?subject=Sujet%20du%20courrier&body=Bonjour,">Contactez-nous</a>
             </footer>
-            <script src="public/js/animtitle.js"></script>
         </body>
     </html>
