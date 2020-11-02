@@ -6,7 +6,7 @@ Name of the project : project3ocr (Project 3, OpenClassrooms)
 
 Author : Alex Pqn
 
-Project status : active (in devlopment)
+Project status : finished (in devlopment)
 
 Project start date : 16 April 2020
 
