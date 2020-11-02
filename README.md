@@ -1,6 +1,6 @@
 # project3ocr
 
-* Presentation
+## Presentation
 
 Name of the project : project3ocr (Project 3, OpenClassrooms)
 
@@ -16,7 +16,7 @@ Quick Description : Project designed and intended to reproduce the models of a s
 
 *-*
 
-* Installation of the project
+## Installation of the project
 
 The installation uses npm Node.js. Install it on your I.D.E to take advantage of the "npm" commands in your terminal.
 
