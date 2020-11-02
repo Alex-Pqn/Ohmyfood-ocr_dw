@@ -14,9 +14,7 @@ Project end date : undefined
 
 Quick Description : Project designed and intended to reproduce the models of a site for preparing and assembling food menus.
 
-*-*
-
-## Installation of the project
+## Installation
 
 The installation uses npm Node.js. Install it on your I.D.E to take advantage of the "npm" commands in your terminal.
 
