@@ -10,7 +10,7 @@ Project status : finished (in devlopment)
 
 Project start date : 16 April 2020
 
-Project end date : undefined
+Project end date : 20 May 2020
 
 Quick Description : Project designed and intended to reproduce the models of a site for preparing and assembling food menus.
 
