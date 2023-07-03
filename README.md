@@ -17,7 +17,6 @@ The installation uses npm Node.js. Install it on your I.D.E to take advantage of
 to install "sass".
 > npm install sass
 
-- - -
 The site must be fully compatible with the latest desktop versions of Chrome, Firefox and Safari.
 
 Two possibilities to interact with the project prefixes !
