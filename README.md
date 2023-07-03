@@ -1,20 +1,16 @@
-# project3ocr
+## Dynamisez une page web avec des animations CSS
+### P3 - OpenClassrooms "Développeur Web"
+#### Projet conçu et destiné à reproduire les modèles d'un site de préparation et d'assemblage de menus alimentaires.
+- Transformer une maquette en site web HTML5 & CSS3
+- Création d'un environnement Front-End
+- Architecture des dossiers et fichiers respectée
+- Utilisation de Sass et préfixage du CSS
+- Mise en œuvre des effets CSS graphiques avancés
+- Mise en place d'une structure de navigation
+- Code passé dans le validateur W3C
+- Responsive
 
-## Presentation
-
-Name of the project : project3ocr (Project 3, OpenClassrooms)
-
-Author : Alex Pqn
-
-Project status : finished (in devlopment)
-
-Project start date : 16 April 2020
-
-Project end date : 20 May 2020
-
-Quick Description : Project designed and intended to reproduce the models of a site for preparing and assembling food menus.
-
-## Installation
+### Installation
 
 The installation uses npm Node.js. Install it on your I.D.E to take advantage of the "npm" commands in your terminal.
 
