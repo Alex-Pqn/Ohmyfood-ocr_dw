@@ -30,8 +30,8 @@ Once the script "prefix" customized according to your extension, you can skip st
 If you choose this method, you can remove the "prefix" script and ignore the rest of the installation, just type "npm run sass" to start the sass script.
 - - -
 
-to install "concurrently" (program script to launch scripts "sass" and "prefix" at the same time, possibility to take another).
-> npm install concurrently
+![CV](/public/img/Ohmyfood.png)
 
-to run the two scripts with "concurrently" (another command if you have another program script for make this)
-> concurrently "npm run sass" "npm run prefix"
+![CV](/public/img/Ohmyfood%20Responsive%202.png)
+
+![CV](/public/img/Ohmyfood%20Responsive.png)
