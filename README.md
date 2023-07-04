@@ -49,7 +49,13 @@ If you choose this method, you can remove the "prefix" script and ignore the res
 ---
 
 ![CV](/public/img/Ohmyfood.png)
-
+<br/>
+<br/>
+<br/>
+<br/>
 ![CV](/public/img/Ohmyfood%20Responsive%202.png)
-
+<br/>
+<br/>
+<br/>
+<br/>
 ![CV](/public/img/Ohmyfood%20Responsive.png)
