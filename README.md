@@ -1,8 +1,8 @@
 ## Dynamiser une page web avec des animations CSS
 ### P3 - OpenClassrooms "Développeur Web"
 #### Projet conçu et destiné à reproduire les modèles d'un site de préparation et d'assemblage de menus alimentaires.
-- Transformer une maquette en site web HTML5 & CSS3
-- Création d'un environnement Front-End
+- Maquettes transformées en site web HTML5/CSS3
+- Création d'un environnement front-end
 - Architecture des dossiers et fichiers respectée
 - Utilisation de Sass et préfixage du CSS
 - Mise en œuvre des effets CSS graphiques avancés
