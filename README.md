@@ -2,7 +2,7 @@
 ### P3 - OpenClassrooms "Développeur Web"
 #### Contexte du projet
 
-Vous venez d’être recruté chez Ohmyfood!, en tant que développeur junior. Félicitations ! Ohmyfood est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
+Vous venez d’être recruté chez Ohmyfood, en tant que développeur junior. Félicitations ! Ohmyfood est une jeune startup qui voudrait s'imposer sur le marché de la restauration. L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
 
 Vous faites partie des 4 heureux élus qui ont la chance de travailler sur ce beau projet. L’équipe se compose de :
 - Paul, le CTO du futur site ;
