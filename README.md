@@ -28,6 +28,8 @@ Vous décidez alors, avec l’équipe, que le site contiendra 4 menus dans un pr
 - Code passé dans le validateur W3C
 - Responsive
 
+### [Prévisualisation du site](https://alex-pqn.github.io/Ohmyfood-ocr_dw/)
+
 ---
 
 ### Prerequisites
