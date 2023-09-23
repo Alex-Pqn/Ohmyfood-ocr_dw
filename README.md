@@ -48,6 +48,8 @@ npm install sass
 
 Open the [index.html](/index.html) file in your browser or use an extension to start a local server on this file.
 
+> A [Github Pages preview](https://alex-pqn.github.io/Ohmyfood-ocr_dw/) is also available for this project
+
 ### CSS Prefixes
 
 Two possibilities to interact with the project prefixes !
