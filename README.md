@@ -54,12 +54,12 @@ Open the [index.html](/index.html) file in your browser or use an extension to s
 
 Two possibilities to interact with the project prefixes !
 
-1. Install an automatic prefixer extension (the default script "prefix" in the package.json is suitable for the extension "autoprefixer" in Visual Studio Code).
+1. Install an automatic prefixer extension (the default script `prefix` in the package.json is suitable for the extension `autoprefixer` in Visual Studio Code).
    You can customize this script if you use another extension in your IDE.
-   Once the script "prefix" customized according to your extension, you can skip step 2 and continue the installation.
+   Once the script `prefix` customized according to your extension, you can skip step 2 and continue the installation.
 
-2. If you don't want to use an autoprefixer, please add them manually in file at "sass/utils/\_prefixes.scss" (create it yourself) and import "\_prefixes.scss" into "scss.main" with the syntax already used.
-   If you choose this method, you can remove the "prefix" script and ignore the rest of the installation, just type "npm run sass" to start the sass script.
+2. If you don't want to use an autoprefixer, please add them manually in file at `sass/utils/\_prefixes.scss` (create it yourself) and import `\_prefixes.scss` into ``scss.main`` with the syntax already used.
+   If you choose this method, you can remove the `prefix` script and ignore the rest of the installation, just type ``npm run sass`` to start the sass script.
 
 ---
 
