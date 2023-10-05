@@ -30,25 +30,22 @@ Vous décidez alors, avec l’équipe, que le site contiendra 4 menus dans un pr
 
 ### [Prévisualisation du site](https://alex-pqn.github.io/Ohmyfood-ocr_dw/)
 
----
+## Start App
 
-### Prerequisites
+Clone the project then open the [index.html](/index.html) file in your browser or use an extension to start a local server on this file.
+
+> [!NOTE]  
+> A [Github Pages preview](https://alex-pqn.github.io/Ohmyfood-ocr_dw/) is also available for this project
+
+## Project setup (optional)
 
 You will need to have Node and `npm` installed locally on your machine.
-
----
 
 ### Install
 
 ```
 npm install sass
 ```
-
-### Start App
-
-Clone the project then open the [index.html](/index.html) file in your browser or use an extension to start a local server on this file.
-
-> A [Github Pages preview](https://alex-pqn.github.io/Ohmyfood-ocr_dw/) is also available for this project
 
 ### CSS Prefixes
 
@@ -61,9 +58,7 @@ Two possibilities to interact with the project prefixes !
 2. If you don't want to use an autoprefixer, please add them manually in file at `sass/utils/\_prefixes.scss` (create it yourself) and import `\_prefixes.scss` into ``scss.main`` with the syntax already used.
    If you choose this method, you can remove the `prefix` script and ignore the rest of the installation, just type ``npm run sass`` to start the sass script.
 
----
-
-### Preview
+## Preview
 
 ![Ohmyfood accueil](/public/img/Ohmyfood.png)
 <br/>
