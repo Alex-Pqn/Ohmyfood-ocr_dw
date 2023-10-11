@@ -17,7 +17,7 @@ Vous faites partie des 4 heureux élus qui ont la chance de travailler sur ce be
 
 Vous décidez alors, avec l’équipe, que le site contiendra 4 menus dans un premier temps.
 
-#### Objectifs
+#### Objectifs réalisés
 
 - Maquettes transformées en site web HTML5/CSS3
 - Création d'un environnement front-end
